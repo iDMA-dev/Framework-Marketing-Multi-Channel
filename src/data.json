@@ -1,0 +1,2625 @@
+{
+ "title": "Framework Marketing Đa Kênh",
+ "publisher": "IDMA Dev",
+ "version": "30/09/2026",
+ "counts": {
+  "phases": 6,
+  "channels": 19,
+  "blocks": 69,
+  "links": 219
+ },
+ "phases": [
+  {
+   "id": "P0",
+   "name": "Nền tảng",
+   "customerQuestion": "Mọi nơi khách hỏi đều nhận cùng một câu trả lời chuẩn?",
+   "producesForNextPhase": [
+    "Bộ claim đã duyệt",
+    "Website, feed sản phẩm chuẩn",
+    "Tracking chung có đồng ý"
+   ],
+   "saleSeasonRhythm": "Xong trước đợt sale 2-3 tuần (CPAS, Merchant Center cần thời gian duyệt)"
+  },
+  {
+   "id": "P1",
+   "name": "Nhận biết",
+   "customerQuestion": "Loại sản phẩm này có hợp với nhu cầu của mình không?",
+   "producesForNextPhase": [
+    "Tệp người xem video",
+    "Mention, backlink thương hiệu",
+    "Lượt tìm tên thương hiệu"
+   ],
+   "saleSeasonRhythm": "Gom tệp 2-3 tuần trước ngày sale"
+  },
+  {
+   "id": "P2",
+   "name": "Tìm hiểu",
+   "customerQuestion": "Thành phần, công dụng, cách dùng có đúng như quảng cáo?",
+   "producesForNextPhase": [
+    "Tệp nhắn tin, quan tâm OA",
+    "Traffic tìm kiếm, AI",
+    "Kho câu hỏi thật"
+   ],
+   "saleSeasonRhythm": "Nuôi tệp, trả lời câu hỏi thật"
+  },
+  {
+   "id": "P3",
+   "name": "So sánh",
+   "customerQuestion": "Thương hiệu này khác gì lựa chọn khác? Người dùng thật nói gì?",
+   "producesForNextPhase": [
+    "Tệp website nóng",
+    "Video KOC được ủy quyền",
+    "Tệp xem, thêm giỏ trên sàn"
+   ],
+   "saleSeasonRhythm": "KOC gắn mã riêng cho ngày sale"
+  },
+  {
+   "id": "P4",
+   "name": "Mua",
+   "customerQuestion": "Mua ở đâu chính hãng? Không hợp thì đổi trả được không?",
+   "producesForNextPhase": [
+    "Đơn gắn nguồn theo kênh",
+    "Tệp đã thanh toán",
+    "Sự kiện đã khử trùng lặp"
+   ],
+   "saleSeasonRhythm": "10.10, 11.11, 12.12: CPAS, LIVE, PMax, chỉnh ROAS mục tiêu"
+  },
+  {
+   "id": "P5",
+   "name": "Sau mua",
+   "customerQuestion": "Có nên mua lại, dùng thêm sản phẩm đi kèm không?",
+   "producesForNextPhase": [
+    "Review, UGC thật",
+    "Tệp người mua có đồng ý",
+    "Kết quả lift, MMM"
+   ],
+   "saleSeasonRhythm": "Thu review, giữ điểm shop cho đợt sau"
+  }
+ ],
+ "channels": [
+  {
+   "id": "A",
+   "name": "KOL, KOC, PR",
+   "platform": "KOL, KOC, PR",
+   "covers": "Người thật nói về thương hiệu"
+  },
+  {
+   "id": "V",
+   "name": "Sự kiện",
+   "platform": "Offline",
+   "covers": "Pop-up, sampling, hội chợ, workshop, hội thảo, meetup"
+  },
+  {
+   "id": "O",
+   "name": "Quảng cáo ngoài trời",
+   "platform": "Offline",
+   "covers": "Billboard, pano, LED, xe buýt, taxi, sân bay, DOOH"
+  },
+  {
+   "id": "K",
+   "name": "Frame tòa nhà",
+   "platform": "Offline",
+   "covers": "Frame, LCD thang máy, sảnh chung cư, văn phòng"
+  },
+  {
+   "id": "C",
+   "name": "TikTok",
+   "platform": "TikTok",
+   "covers": "Kênh tự nhiên, TikTok Ads (về web), TikTok Shop Ads (về Shop)"
+  },
+  {
+   "id": "B",
+   "name": "Meta Ads",
+   "platform": "Meta",
+   "covers": "Quảng cáo Facebook, Instagram, Threads"
+  },
+  {
+   "id": "P",
+   "name": "Facebook Fanpage",
+   "platform": "Meta",
+   "covers": "Bài đăng, Reels, Messenger, livestream, nhóm"
+  },
+  {
+   "id": "I",
+   "name": "Instagram",
+   "platform": "Meta",
+   "covers": "Reels, collab, Story, Direct, link in bio"
+  },
+  {
+   "id": "T",
+   "name": "Threads",
+   "platform": "Meta",
+   "covers": "Bài viết, chủ đề, trả lời, tin nhắn, link bio"
+  },
+  {
+   "id": "Z",
+   "name": "Zalo",
+   "platform": "Zalo",
+   "covers": "OA, Mini App, Zalo cá nhân, ZNS, Ads"
+  },
+  {
+   "id": "Y",
+   "name": "YouTube",
+   "platform": "Google",
+   "covers": "Kênh thương hiệu: Shorts, video dài, bài đăng, Shopping"
+  },
+  {
+   "id": "H",
+   "name": "Google Ads",
+   "platform": "Google",
+   "covers": "YouTube Ads, Search, PMax"
+  },
+  {
+   "id": "S",
+   "name": "SEO",
+   "platform": "Tìm kiếm và AI",
+   "covers": "Google, Bing, Cốc Cốc"
+  },
+  {
+   "id": "Q",
+   "name": "AEO",
+   "platform": "Tìm kiếm và AI",
+   "covers": "Đoạn trích, PAA, AI Overviews"
+  },
+  {
+   "id": "D",
+   "name": "GEO",
+   "platform": "Tìm kiếm và AI",
+   "covers": "ChatGPT, Gemini, Perplexity, Copilot, Grok"
+  },
+  {
+   "id": "E",
+   "name": "OpenAI Ads",
+   "platform": "Tìm kiếm và AI",
+   "covers": "Quảng cáo trong ChatGPT"
+  },
+  {
+   "id": "W",
+   "name": "Website, email",
+   "platform": "Website, email",
+   "covers": "Kênh sở hữu"
+  },
+  {
+   "id": "F",
+   "name": "Sàn TMĐT",
+   "platform": "Sàn TMĐT",
+   "covers": "Shopee, Lazada, TikTok Shop"
+  },
+  {
+   "id": "G",
+   "name": "Dữ liệu, đo lường",
+   "platform": "Dữ liệu, đo lường",
+   "covers": "Nền cho mọi pha"
+  }
+ ],
+ "linkTypes": [
+  {
+   "type": "Tệp khán giả chuyển tiếp",
+   "count": 26
+  },
+  {
+   "type": "Luồng khách",
+   "count": 68
+  },
+  {
+   "type": "Nội dung dùng lại",
+   "count": 50
+  },
+  {
+   "type": "Dữ liệu, insight",
+   "count": 41
+  },
+  {
+   "type": "Bằng chứng xã hội",
+   "count": 10
+  },
+  {
+   "type": "Vòng lặp về pha trước",
+   "count": 24
+  }
+ ],
+ "blockKinds": [
+  {
+   "label": "Paid",
+   "meaning": "trả phí (quảng cáo)"
+  },
+  {
+   "label": "Organic",
+   "meaning": "tự nhiên (tìm kiếm, AI)"
+  },
+  {
+   "label": "Owned",
+   "meaning": "kênh sở hữu"
+  },
+  {
+   "label": "Earned",
+   "meaning": "kênh lan tỏa (người khác nói về thương hiệu)"
+  },
+  {
+   "label": "Data",
+   "meaning": "dữ liệu, đo lường"
+  }
+ ],
+ "blocks": [
+  {
+   "id": "P0_CLAIM",
+   "name": "Claim + hợp đồng KOC",
+   "channel": "KOL, KOC, PR",
+   "kind": "Owned - kênh sở hữu",
+   "tactic": "Claim khớp hồ sơ công bố sản phẩm; KOC dùng thật, gắn nhãn quảng cáo, cấp quyền dùng video",
+   "phase": "P0"
+  },
+  {
+   "id": "P0_OFFPLAN",
+   "name": "Kế hoạch điểm đặt offline",
+   "channel": "Quảng cáo ngoài trời",
+   "kind": "Data - dữ liệu, đo lường",
+   "tactic": "Chọn điểm OOH, tòa nhà, sự kiện theo vùng có khách (dùng chung cho sự kiện, Frame); mỗi điểm một QR + UTM hoặc mã giảm giá riêng; chia vùng thử, vùng đối chứng trước khi chạy",
+   "phase": "P0"
+  },
+  {
+   "id": "P0_WEB",
+   "name": "Website: sản phẩm + FAQ",
+   "channel": "Website, email",
+   "kind": "Owned - kênh sở hữu",
+   "tactic": "FAQ thành phần, cách dùng, đổi trả; mở cho bot tìm kiếm, bot AI, bot duyệt quảng cáo",
+   "phase": "P0"
+  },
+  {
+   "id": "P0_SHOP",
+   "name": "Gian hàng Mall 3 sàn",
+   "channel": "Sàn TMĐT",
+   "kind": "Owned - kênh sở hữu",
+   "tactic": "Shopee Mall, LazMall, TikTok Shop; mở Affiliate gửi mẫu; nộp hồ sơ CPAS",
+   "phase": "P0"
+  },
+  {
+   "id": "P0_TRACK",
+   "name": "Tracking có đồng ý",
+   "channel": "Dữ liệu, đo lường",
+   "kind": "Data - dữ liệu, đo lường",
+   "tactic": "Banner đồng ý; Pixel + CAPI Meta, TikTok, OpenAI; Google tag + Consent Mode; chung event_id",
+   "phase": "P0"
+  },
+  {
+   "id": "P0_FEED",
+   "name": "Dữ liệu sản phẩm gốc",
+   "channel": "Dữ liệu, đo lường",
+   "kind": "Data - dữ liệu, đo lường",
+   "tactic": "Một bảng gốc xuất cho Merchant Center, OpenAI Product Feed, mẫu từng sàn",
+   "phase": "P0"
+  },
+  {
+   "id": "P1_KOL",
+   "name": "KOL, KOC video",
+   "channel": "KOL, KOC, PR",
+   "kind": "Paid - trả phí (quảng cáo)",
+   "tactic": "KOL giải thích thành phần, công dụng; KOC đúng tệp khách quay trải nghiệm thật",
+   "phase": "P1"
+  },
+  {
+   "id": "P1_YT",
+   "name": "Báo chí, YouTuber, blog ngành",
+   "channel": "KOL, KOC, PR",
+   "kind": "Earned - kênh lan tỏa (người khác nói về thương hiệu)",
+   "tactic": "YouTuber, báo, blog ngành review trên kênh của chính họ; nêu rõ tên thương hiệu trong tiêu đề, lời thoại; bài trả phí ghi là quảng cáo",
+   "phase": "P1"
+  },
+  {
+   "id": "P1_EVENT",
+   "name": "Sự kiện, pop-up, sampling",
+   "channel": "Sự kiện",
+   "kind": "Paid - trả phí (quảng cáo)",
+   "tactic": "Gian hàng hội chợ, triển lãm, pop-up ở trung tâm thương mại, phát mẫu thử; KOL giao lưu; góc check-in; QR nhận quà dẫn Zalo OA",
+   "phase": "P1"
+  },
+  {
+   "id": "P1_BILLBOARD",
+   "name": "Billboard, pano, màn LED",
+   "channel": "Quảng cáo ngoài trời",
+   "kind": "Paid - trả phí (quảng cáo)",
+   "tactic": "Pano tấm lớn, màn LED trục đường, ngã tư theo vùng khách; thông điệp đọc được trong vài giây + tên thương hiệu dễ gõ tìm; QR chỉ đặt nơi người xem dừng lại",
+   "phase": "P1"
+  },
+  {
+   "id": "P1_TRANSIT",
+   "name": "Xe buýt, taxi, sân bay, nhà chờ",
+   "channel": "Quảng cáo ngoài trời",
+   "kind": "Paid - trả phí (quảng cáo)",
+   "tactic": "Bọc xe buýt, taxi, xe công nghệ theo tuyến; màn hình, lightbox sân bay, nhà ga; poster nhà chờ; QR trên lưng ghế, nhà chờ nơi người xem có thời gian quét",
+   "phase": "P1"
+  },
+  {
+   "id": "P1_FRAME",
+   "name": "Frame, LCD thang máy",
+   "channel": "Frame tòa nhà",
+   "kind": "Paid - trả phí (quảng cáo)",
+   "tactic": "Frame ảnh tĩnh, màn LCD trong thang máy, sảnh chung cư, văn phòng; chọn theo tòa nhà, khu vực; lặp lại mỗi ngày với cùng cư dân; QR + UTM riêng từng tòa",
+   "phase": "P1"
+  },
+  {
+   "id": "P1_TT",
+   "name": "TikTok Ads",
+   "channel": "TikTok",
+   "kind": "Paid - trả phí (quảng cáo)",
+   "tactic": "Spark Ads đẩy video KOC bằng mã ủy quyền; mục tiêu Reach, Video Views",
+   "phase": "P1"
+  },
+  {
+   "id": "P1_TTCH",
+   "name": "Kênh TikTok thương hiệu",
+   "channel": "TikTok",
+   "kind": "Owned - kênh sở hữu",
+   "tactic": "Video đều đặn, trả lời bình luận bằng video; video gắn giỏ hàng dẫn vào TikTok Shop; link bio (tài khoản doanh nghiệp) dẫn website, Zalo",
+   "phase": "P1"
+  },
+  {
+   "id": "P1_META",
+   "name": "Meta Ads",
+   "channel": "Meta Ads",
+   "kind": "Paid - trả phí (quảng cáo)",
+   "tactic": "Quảng cáo Reels từ bài Fanpage, Instagram; vị trí Threads trong cùng chiến dịch; nhánh CPAS Awareness; loại trừ người mua",
+   "phase": "P1"
+  },
+  {
+   "id": "P1_FBPAGE",
+   "name": "Fanpage: bài đăng, Reels",
+   "channel": "Facebook Fanpage",
+   "kind": "Owned - kênh sở hữu",
+   "tactic": "Bài giáo dục, Reels, album review thật; ghim bài gắn link website, Shopee, TikTok Shop, Zalo OA",
+   "phase": "P1"
+  },
+  {
+   "id": "P1_IG",
+   "name": "Instagram Reels, collab",
+   "channel": "Instagram",
+   "kind": "Owned - kênh sở hữu",
+   "tactic": "Reels, carousel theo nhận diện thương hiệu; bài collab cùng KOC hiện trên cả hai tài khoản",
+   "phase": "P1"
+  },
+  {
+   "id": "P1_THREADS",
+   "name": "Threads: bài viết, chủ đề",
+   "channel": "Threads",
+   "kind": "Owned - kênh sở hữu",
+   "tactic": "Bài chữ ngắn kèm ảnh, video, gắn một chủ đề (topic) để vào đúng luồng thảo luận; đăng chéo từ Instagram; link bio tối đa 5 link",
+   "phase": "P1"
+  },
+  {
+   "id": "P1_YTCH",
+   "name": "Kênh YouTube: Shorts, video",
+   "channel": "YouTube",
+   "kind": "Owned - kênh sở hữu",
+   "tactic": "Shorts đều đặn, video dài giải thích nhu cầu; tiêu đề, mô tả theo cụm từ người xem tìm trên YouTube; playlist theo chủ đề; link hồ sơ kênh dẫn website, Zalo",
+   "phase": "P1"
+  },
+  {
+   "id": "P1_YTADS",
+   "name": "YouTube Ads",
+   "channel": "Google Ads",
+   "kind": "Paid - trả phí (quảng cáo)",
+   "tactic": "Video KOC, video kênh thương hiệu chạy in-stream, Shorts; Demand Gen gom tệp xem video",
+   "phase": "P1"
+  },
+  {
+   "id": "P1_SEO",
+   "name": "SEO: bài thông tin",
+   "channel": "SEO",
+   "kind": "Organic - tự nhiên (tìm kiếm, AI)",
+   "tactic": "Bài giải thích nhu cầu, thành phần; bắt từ khóa thông tin từ sớm",
+   "phase": "P1"
+  },
+  {
+   "id": "P2_WORKSHOP",
+   "name": "Workshop, hội thảo, meetup",
+   "channel": "Sự kiện",
+   "kind": "Owned - kênh sở hữu",
+   "tactic": "Buổi chia sẻ cách dùng, hỏi đáp trực tiếp với chuyên gia; đăng ký qua form hoặc Zalo OA có ô đồng ý; báo trước người dự là buổi được ghi hình, phát trực tiếp cho người không tới được",
+   "phase": "P2"
+  },
+  {
+   "id": "P2_TT",
+   "name": "TikTok Ads + Search",
+   "channel": "TikTok",
+   "kind": "Paid - trả phí (quảng cáo)",
+   "tactic": "Retarget tệp xem 100%; Automatic Search Placement, báo cáo Search Terms",
+   "phase": "P2"
+  },
+  {
+   "id": "P2_META",
+   "name": "Meta Ads",
+   "channel": "Meta Ads",
+   "kind": "Paid - trả phí (quảng cáo)",
+   "tactic": "Click-to-Messenger, IG Direct: quảng cáo tin nhắn đổ về inbox Fanpage, Instagram",
+   "phase": "P2"
+  },
+  {
+   "id": "P2_FBMSG",
+   "name": "Fanpage: Messenger, bình luận",
+   "channel": "Facebook Fanpage",
+   "kind": "Owned - kênh sở hữu",
+   "tactic": "Trả lời bình luận, inbox tư vấn theo FAQ; gửi link website, gian hàng sàn, Zalo Mini App hoặc mời sang Zalo khi khách muốn",
+   "phase": "P2"
+  },
+  {
+   "id": "P2_THREADS",
+   "name": "Threads: trả lời, tin nhắn",
+   "channel": "Threads",
+   "kind": "Owned - kênh sở hữu",
+   "tactic": "Trả lời câu hỏi thật trong luồng trả lời, quote post; tin nhắn Threads tư vấn riêng (kiểm tra điều kiện nhắn trong tài khoản); mời sang Zalo khi khách muốn",
+   "phase": "P2"
+  },
+  {
+   "id": "P2_ZALO",
+   "name": "Zalo OA tư vấn",
+   "channel": "Zalo",
+   "kind": "Owned - kênh sở hữu",
+   "tactic": "OA đã xác thực, trả lời tự động theo FAQ; menu, tin tư vấn dẫn vào Mini App",
+   "phase": "P2"
+  },
+  {
+   "id": "P2_ZCN",
+   "name": "Zalo cá nhân tư vấn",
+   "channel": "Zalo",
+   "kind": "Owned - kênh sở hữu",
+   "tactic": "Nhân viên tư vấn 1-1: gửi ảnh, video dùng thật, trả lời theo FAQ; không kết bạn, nhắn hàng loạt",
+   "phase": "P2"
+  },
+  {
+   "id": "P2_YTLONG",
+   "name": "YouTube: video hướng dẫn, chapter",
+   "channel": "YouTube",
+   "kind": "Owned - kênh sở hữu",
+   "tactic": "Video dài trả lời câu hỏi thật (cách dùng, thành phần), chia chapter; mô tả, bình luận ghim gắn link UTM (link trong mô tả Shorts không bấm được); Bài đăng (Posts) hỏi đáp",
+   "phase": "P2"
+  },
+  {
+   "id": "P2_GSEARCH",
+   "name": "Google Search Ads",
+   "channel": "Google Ads",
+   "kind": "Paid - trả phí (quảng cáo)",
+   "tactic": "Từ khóa câu hỏi, ngành hàng và tên thương hiệu; tiêu đề trả lời đúng câu hỏi",
+   "phase": "P2"
+  },
+  {
+   "id": "P2_SEO",
+   "name": "SEO: trang sản phẩm, danh mục",
+   "channel": "SEO",
+   "kind": "Organic - tự nhiên (tìm kiếm, AI)",
+   "tactic": "Chuẩn kỹ thuật, tốc độ, dữ liệu có cấu trúc; nội dung theo cụm từ khóa",
+   "phase": "P2"
+  },
+  {
+   "id": "P2_AEO",
+   "name": "AEO: đoạn trích, PAA",
+   "channel": "AEO",
+   "kind": "Organic - tự nhiên (tìm kiếm, AI)",
+   "tactic": "Mỗi H2 là một câu hỏi thật, trả lời ngắn ngay đầu; bảng, danh sách rõ ràng",
+   "phase": "P2"
+  },
+  {
+   "id": "P2_GEO",
+   "name": "GEO: ChatGPT, Gemini",
+   "channel": "GEO",
+   "kind": "Organic - tự nhiên (tìm kiếm, AI)",
+   "tactic": "Số đo thật, trích chuyên gia có danh tính; không chặn OAI-SearchBot, Bingbot",
+   "phase": "P2"
+  },
+  {
+   "id": "P2_OAI",
+   "name": "OpenAI Ads",
+   "channel": "OpenAI Ads",
+   "kind": "Paid - trả phí (quảng cáo)",
+   "tactic": "Chat card, Context Hints What, Who, When; mục tiêu Clicks, UTM riêng",
+   "phase": "P2"
+  },
+  {
+   "id": "P3_KOC",
+   "name": "KOC affiliate",
+   "channel": "KOL, KOC, PR",
+   "kind": "Earned - kênh lan tỏa (người khác nói về thương hiệu)",
+   "tactic": "TikTok Shop Affiliate Kế hoạch mở (video, LIVE gắn giỏ); Shopee Affiliate, Facebook Affiliate gắn sản phẩm Shopee; link giới thiệu về website qua mạng affiliate",
+   "phase": "P3"
+  },
+  {
+   "id": "P3_DOOH",
+   "name": "DOOH programmatic",
+   "channel": "Quảng cáo ngoài trời",
+   "kind": "Paid - trả phí (quảng cáo)",
+   "tactic": "Màn hình số ở trung tâm thương mại, siêu thị, trục đường mua trực tiếp theo gói hoặc qua DSP ở nơi có kho programmatic (chủ yếu PMP); đổi nội dung theo giờ, ngày sale; báo cáo phát (proof of play) theo màn",
+   "phase": "P3"
+  },
+  {
+   "id": "P3_TT",
+   "name": "TikTok Ads",
+   "channel": "TikTok",
+   "kind": "Paid - trả phí (quảng cáo)",
+   "tactic": "TikTok Ads thường: video KOC dùng thử cho tệp xem sâu, tệp đã vào website; mục tiêu Traffic, Website Conversions dẫn về web",
+   "phase": "P3"
+  },
+  {
+   "id": "P3_META",
+   "name": "Meta Ads",
+   "channel": "Meta Ads",
+   "kind": "Paid - trả phí (quảng cáo)",
+   "tactic": "Partnership Ads review KOC cho tệp nhắn tin, lưu bài, vào website",
+   "phase": "P3"
+  },
+  {
+   "id": "P3_IG",
+   "name": "Instagram Story, link in bio",
+   "channel": "Instagram",
+   "kind": "Owned - kênh sở hữu",
+   "tactic": "Story hỏi đáp, highlight gom review thật; Direct tư vấn; link in bio dẫn website, Shopee, TikTok Shop, Zalo",
+   "phase": "P3"
+  },
+  {
+   "id": "P3_THREADS",
+   "name": "Threads: thảo luận, review thật",
+   "channel": "Threads",
+   "kind": "Earned - kênh lan tỏa (người khác nói về thương hiệu)",
+   "tactic": "Bài hỏi \"X có tốt không\", quote post, chia sẻ trải nghiệm của người dùng thật; thương hiệu trả lời công khai bằng dữ kiện; link trong bài, bio dẫn website, gian hàng",
+   "phase": "P3"
+  },
+  {
+   "id": "P3_ZADS",
+   "name": "Zalo Ads",
+   "channel": "Zalo",
+   "kind": "Paid - trả phí (quảng cáo)",
+   "tactic": "Quảng cáo OA, form, website nhắm người quan tâm OA và danh sách khách có đồng ý",
+   "phase": "P3"
+  },
+  {
+   "id": "P3_YTREVIEW",
+   "name": "YouTube: so sánh, review, Shopping",
+   "channel": "YouTube",
+   "kind": "Owned - kênh sở hữu",
+   "tactic": "Video so sánh, dùng thử dài; màn hình kết thúc, thẻ dẫn sang video liên quan; YouTube Shopping gắn sản phẩm Shopee (chương trình liên kết, kênh từ 10.000 người đăng ký, ở YPP)",
+   "phase": "P3"
+  },
+  {
+   "id": "P3_GADS",
+   "name": "Google remarketing",
+   "channel": "Google Ads",
+   "kind": "Paid - trả phí (quảng cáo)",
+   "tactic": "Demand Gen, Display cho tệp website, YouTube; RLSA tăng giá thầu người đã vào web",
+   "phase": "P3"
+  },
+  {
+   "id": "P3_SEO",
+   "name": "SEO: trang so sánh, review",
+   "channel": "SEO",
+   "kind": "Organic - tự nhiên (tìm kiếm, AI)",
+   "tactic": "Trang \"thương hiệu + review\", \"có tốt không\", so sánh với lựa chọn khác",
+   "phase": "P3"
+  },
+  {
+   "id": "P3_AEO",
+   "name": "AEO: câu trả lời so sánh",
+   "channel": "AEO",
+   "kind": "Organic - tự nhiên (tìm kiếm, AI)",
+   "tactic": "Câu trả lời ngắn cho \"X hay Y\", bảng so sánh; markup Product khớp feed",
+   "phase": "P3"
+  },
+  {
+   "id": "P3_GEO",
+   "name": "GEO so sánh",
+   "channel": "GEO",
+   "kind": "Organic - tự nhiên (tìm kiếm, AI)",
+   "tactic": "Review công khai, trang so sánh; listing trên sàn khớp website",
+   "phase": "P3"
+  },
+  {
+   "id": "P3_OAI",
+   "name": "OpenAI Ads",
+   "channel": "OpenAI Ads",
+   "kind": "Paid - trả phí (quảng cáo)",
+   "tactic": "Ad group \"đang so sánh\" có landing riêng; Product Feed ads nếu có",
+   "phase": "P3"
+  },
+  {
+   "id": "P3_SHOPEE",
+   "name": "Shopee Ads",
+   "channel": "Sàn TMĐT",
+   "kind": "Paid - trả phí (quảng cáo)",
+   "tactic": "Search Ads từ khóa chung và tên thương hiệu; Discovery ở Sản phẩm tương tự; đặt giá thầu Tối đa doanh thu theo ROAS; chỉ dẫn khách trong sàn",
+   "phase": "P3"
+  },
+  {
+   "id": "P4_FRAME",
+   "name": "Frame ưu đãi theo tòa nhà",
+   "channel": "Frame tòa nhà",
+   "kind": "Paid - trả phí (quảng cáo)",
+   "tactic": "Ưu đãi riêng cư dân từng tòa (mã riêng), quét QR đặt qua Zalo Mini App hoặc website, giao tận căn hộ; hợp hàng tiêu dùng, dịch vụ quanh khu",
+   "phase": "P4"
+  },
+  {
+   "id": "P4_TTSHOP",
+   "name": "TikTok Shop Ads",
+   "channel": "TikTok",
+   "kind": "Paid - trả phí (quảng cáo)",
+   "tactic": "Product GMV Max, LIVE GMV Max từ video affiliate; chỉ đưa khách vào gian hàng TikTok Shop, không dẫn ra website",
+   "phase": "P4"
+  },
+  {
+   "id": "P4_CPAS",
+   "name": "Meta CPAS",
+   "channel": "Meta Ads",
+   "kind": "Paid - trả phí (quảng cáo)",
+   "tactic": "Advantage+ catalog ads trên catalog sàn, đích app Shopee, Lazada",
+   "phase": "P4"
+  },
+  {
+   "id": "P4_FBLIVE",
+   "name": "Fanpage livestream",
+   "channel": "Facebook Fanpage",
+   "kind": "Owned - kênh sở hữu",
+   "tactic": "Livestream chốt đơn qua bình luận, inbox (nhập đơn kèm nguồn phiên live); ghim link website, Shopee; mã giảm giá riêng kênh Fanpage để đối soát",
+   "phase": "P4"
+  },
+  {
+   "id": "P4_ZMA",
+   "name": "Zalo Mini App",
+   "channel": "Zalo",
+   "kind": "Owned - kênh sở hữu",
+   "tactic": "Mua ngay trong Zalo: giỏ hàng, thanh toán, theo dõi đơn; hợp nhất với luồng khách từ OA",
+   "phase": "P4"
+  },
+  {
+   "id": "P4_ZCHAT",
+   "name": "Chốt đơn qua Zalo cá nhân",
+   "channel": "Zalo",
+   "kind": "Owned - kênh sở hữu",
+   "tactic": "Lên đơn COD ngay trong tin nhắn, hoặc gửi link website gắn UTM theo từng nhân viên",
+   "phase": "P4"
+  },
+  {
+   "id": "P4_PMAX",
+   "name": "Performance Max, Shopping",
+   "channel": "Google Ads",
+   "kind": "Paid - trả phí (quảng cáo)",
+   "tactic": "Merchant Center feed; mục tiêu ROAS; audience signal từ tệp remarketing",
+   "phase": "P4"
+  },
+  {
+   "id": "P4_AEO",
+   "name": "AEO: mua ở đâu, đổi trả",
+   "channel": "AEO",
+   "kind": "Organic - tự nhiên (tìm kiếm, AI)",
+   "tactic": "Trả lời sẵn \"mua ở đâu chính hãng\", phí ship, đổi trả; khớp thông tin trên sàn",
+   "phase": "P4"
+  },
+  {
+   "id": "P4_OAI",
+   "name": "OpenAI Ads Conversions",
+   "channel": "OpenAI Ads",
+   "kind": "Paid - trả phí (quảng cáo)",
+   "tactic": "Chiến dịch mới mục tiêu Conversions, order_created; loại trừ người mua",
+   "phase": "P4"
+  },
+  {
+   "id": "P4_WEB",
+   "name": "Website (trang mua)",
+   "channel": "Website, email",
+   "kind": "Owned - kênh sở hữu",
+   "tactic": "Đơn web, form nhận mẫu; đổi trả cạnh nút mua; nút sang sàn gắn UTM",
+   "phase": "P4"
+  },
+  {
+   "id": "P4_SHOPEE",
+   "name": "Shopee Mall, LazMall",
+   "channel": "Sàn TMĐT",
+   "kind": "Owned - kênh sở hữu",
+   "tactic": "Trang sản phẩm trong gian hàng Mall: voucher shop, Flash Sale, mã giảm giá riêng từng KOC; chính sách trả hàng của sàn",
+   "phase": "P4"
+  },
+  {
+   "id": "P4_TTSTORE",
+   "name": "Gian hàng TikTok Shop",
+   "channel": "Sàn TMĐT",
+   "kind": "Owned - kênh sở hữu",
+   "tactic": "Đơn từ video gắn giỏ, LIVE, TikTok Shop Ads và link từ Fanpage, Instagram, Zalo; Affiliate, chính sách đổi trả của sàn",
+   "phase": "P4"
+  },
+  {
+   "id": "P5_REVIEW",
+   "name": "Review, UGC",
+   "channel": "KOL, KOC, PR",
+   "kind": "Earned - kênh lan tỏa (người khác nói về thương hiệu)",
+   "tactic": "Review ảnh, video trên sàn và web; xin đồng ý trước khi dùng lại",
+   "phase": "P5"
+  },
+  {
+   "id": "P5_EVENT",
+   "name": "Sự kiện khách thân thiết",
+   "channel": "Sự kiện",
+   "kind": "Owned - kênh sở hữu",
+   "tactic": "Meetup, workshop nâng cao cho người đã mua (mời khi có đồng ý); thu trải nghiệm thật; vé mời, mã giới thiệu cho bạn bè",
+   "phase": "P5"
+  },
+  {
+   "id": "P5_TT",
+   "name": "TikTok Ads",
+   "channel": "TikTok",
+   "kind": "Paid - trả phí (quảng cáo)",
+   "tactic": "Tệp người mua (Complete Payment từ Shop, Customer File có đồng ý): loại trừ, Lookalike cho chiến dịch mới",
+   "phase": "P5"
+  },
+  {
+   "id": "P5_META",
+   "name": "Meta Ads",
+   "channel": "Meta Ads",
+   "kind": "Paid - trả phí (quảng cáo)",
+   "tactic": "Catalog \"Purchased\" gợi ý sản phẩm đi kèm; nhắc mua lại",
+   "phase": "P5"
+  },
+  {
+   "id": "P5_FBGROUP",
+   "name": "Nhóm cộng đồng khách",
+   "channel": "Facebook Fanpage",
+   "kind": "Owned - kênh sở hữu",
+   "tactic": "Nhóm Facebook cho người đã mua: hướng dẫn dùng, chia sẻ trải nghiệm, ưu đãi mua lại",
+   "phase": "P5"
+  },
+  {
+   "id": "P5_ZNS",
+   "name": "Zalo ZNS, OA",
+   "channel": "Zalo",
+   "kind": "Owned - kênh sở hữu",
+   "tactic": "ZNS theo mẫu đã duyệt: xác nhận đơn, hướng dẫn dùng, xin đánh giá",
+   "phase": "P5"
+  },
+  {
+   "id": "P5_EMAIL",
+   "name": "Email, SMS sau mua",
+   "channel": "Website, email",
+   "kind": "Owned - kênh sở hữu",
+   "tactic": "Hướng dẫn dùng, nhắc mua lại theo chu kỳ; chỉ gửi khi có đồng ý, có link hủy",
+   "phase": "P5"
+  },
+  {
+   "id": "P5_CRM",
+   "name": "Dữ liệu người mua",
+   "channel": "Dữ liệu, đo lường",
+   "kind": "Data - dữ liệu, đo lường",
+   "tactic": "Đơn web, inbox, OA, sự kiện có đồng ý; tải lên Meta, TikTok, Google, Zalo, OpenAI",
+   "phase": "P5"
+  },
+  {
+   "id": "P5_MEASURE",
+   "name": "Đo phần tăng thêm",
+   "channel": "Dữ liệu, đo lường",
+   "kind": "Data - dữ liệu, đo lường",
+   "tactic": "Conversion Lift, GeoLift (cả OOH, Frame theo vùng; 34 tỉnh là ít vùng, OOH ở TP.HCM, Hà Nội thì chia theo phường, cụm phường), MMM Meridian hoặc Robyn; chia lại ngân sách",
+   "phase": "P5"
+  }
+ ],
+ "links": [
+  {
+   "no": 1,
+   "from": "P0_CLAIM",
+   "to": "P1_KOL",
+   "type": "Nội dung dùng lại",
+   "label": "Brief, mẫu, nhãn quảng cáo",
+   "why": "KOL, KOC nhận hồ sơ công bố, bộ claim và mẫu để dùng thật; công khai là quảng cáo (Luật 75/2025, Điều 15a)."
+  },
+  {
+   "no": 2,
+   "from": "P0_CLAIM",
+   "to": "P1_SEO",
+   "type": "Nội dung dùng lại",
+   "label": "Claim đã duyệt cho bài viết",
+   "why": "Bài blog, bài giải thích dùng đúng claim trong hồ sơ công bố; không nói quá công dụng."
+  },
+  {
+   "no": 3,
+   "from": "P0_CLAIM",
+   "to": "P2_GSEARCH",
+   "type": "Nội dung dùng lại",
+   "label": "Claim cho quảng cáo tìm kiếm",
+   "why": "Tiêu đề, mô tả Responsive Search Ads lấy từ claim đã duyệt; tránh claim điều trị vì chính sách y tế của Google Ads."
+  },
+  {
+   "no": 4,
+   "from": "P0_CLAIM",
+   "to": "P2_OAI",
+   "type": "Nội dung dùng lại",
+   "label": "Claim ngắn cho chat card",
+   "why": "Chat card chỉ 3-50 ký tự tiêu đề, 100 ký tự mô tả; OpenAI cấm claim điều trị, cả trên landing."
+  },
+  {
+   "no": 5,
+   "from": "P0_CLAIM",
+   "to": "P3_KOC",
+   "type": "Nội dung dùng lại",
+   "label": "Brief đi kèm mẫu affiliate",
+   "why": "KOC Kế hoạch mở làm nội dung số lượng lớn nên rủi ro nói quá công dụng cao nhất."
+  },
+  {
+   "no": 6,
+   "from": "P0_WEB",
+   "to": "P2_ZALO",
+   "type": "Nội dung dùng lại",
+   "label": "FAQ làm kịch bản OA",
+   "why": "Cùng bộ FAQ làm tin trả lời tự động, menu OA; câu khó chuyển người tư vấn."
+  },
+  {
+   "no": 7,
+   "from": "P0_WEB",
+   "to": "P2_ZCN",
+   "type": "Nội dung dùng lại",
+   "label": "Kịch bản tư vấn 1-1",
+   "why": "Cùng bộ FAQ, claim đã duyệt làm mẫu câu trả lời cho nhân viên tư vấn qua Zalo cá nhân."
+  },
+  {
+   "no": 8,
+   "from": "P0_WEB",
+   "to": "P2_SEO",
+   "type": "Nội dung dùng lại",
+   "label": "Trang chuẩn kỹ thuật để index",
+   "why": "Trang sản phẩm, danh mục có tốc độ tốt, dữ liệu có cấu trúc, sitemap; nền cho SEO trên Google, Bing, Cốc Cốc."
+  },
+  {
+   "no": 9,
+   "from": "P0_WEB",
+   "to": "P2_AEO",
+   "type": "Nội dung dùng lại",
+   "label": "FAQ viết theo câu hỏi",
+   "why": "Mỗi câu hỏi một H2, câu trả lời ngắn ngay đầu để có cơ hội được chọn làm đoạn trích, People Also Ask."
+  },
+  {
+   "no": 10,
+   "from": "P0_WEB",
+   "to": "P2_GEO",
+   "type": "Nội dung dùng lại",
+   "label": "FAQ mở cho bot AI",
+   "why": "Trang được index, không bị robots, WAF chặn OAI-SearchBot, Bingbot mới có cơ hội được trích dẫn."
+  },
+  {
+   "no": 11,
+   "from": "P0_WEB",
+   "to": "P2_OAI",
+   "type": "Nội dung dùng lại",
+   "label": "Cùng trang làm landing",
+   "why": "OAI-AdsBot duyệt landing; nội dung landing là một tín hiệu để chọn khi nào hiện quảng cáo."
+  },
+  {
+   "no": 12,
+   "from": "P0_SHOP",
+   "to": "P3_KOC",
+   "type": "Nội dung dùng lại",
+   "label": "Affiliate gửi mẫu cho KOC",
+   "why": "Kế hoạch mở trên TikTok Shop cho gửi mẫu, để nhiều KOC đúng tệp khách dùng thật trước khi quay."
+  },
+  {
+   "no": 13,
+   "from": "P0_SHOP",
+   "to": "P4_CPAS",
+   "type": "Dữ liệu, insight",
+   "label": "Sàn duyệt, chia sẻ catalog",
+   "why": "Shopee, Lazada chia sẻ catalog segment sang Business Manager; Lazada cần ký TEA; cần thời gian duyệt."
+  },
+  {
+   "no": 14,
+   "from": "P0_TRACK",
+   "to": "P3_META",
+   "type": "Tệp khán giả chuyển tiếp",
+   "label": "Pixel + CAPI thành tệp website",
+   "why": "Mọi traffic vào web (tìm kiếm, AI, quảng cáo) thành Website Custom Audience, lưu tới 180 ngày."
+  },
+  {
+   "no": 15,
+   "from": "P0_TRACK",
+   "to": "P3_GADS",
+   "type": "Tệp khán giả chuyển tiếp",
+   "label": "Google tag thành tệp remarketing",
+   "why": "Google tag + Consent Mode ghi người vào web (có đồng ý) thành tệp cho Demand Gen, Display, RLSA."
+  },
+  {
+   "no": 16,
+   "from": "P0_TRACK",
+   "to": "P4_OAI",
+   "type": "Dữ liệu, insight",
+   "label": "event_id chung, lưu oppref",
+   "why": "OpenAI CAPI không tự bắt oppref: server lưu và gửi order_created cùng event_id để khử trùng lặp."
+  },
+  {
+   "no": 17,
+   "from": "P0_TRACK",
+   "to": "P5_MEASURE",
+   "type": "Dữ liệu, insight",
+   "label": "Chuỗi đơn đã khử trùng lặp",
+   "why": "Lift test và MMM cần chuỗi đơn thống nhất theo ngày, theo tỉnh."
+  },
+  {
+   "no": 18,
+   "from": "P0_FEED",
+   "to": "P3_AEO",
+   "type": "Dữ liệu, insight",
+   "label": "Merchant Center, markup Product",
+   "why": "Google khuyến nghị Merchant Center feed; markup Product trên website phải khớp feed về giá, tồn kho."
+  },
+  {
+   "no": 19,
+   "from": "P0_FEED",
+   "to": "P3_OAI",
+   "type": "Dữ liệu, insight",
+   "label": "Nạp Product Feed OpenAI",
+   "why": "Feed CSV qua hosted URL hoặc SFTP; kiểm tra Product Feed campaign đã mở cho tài khoản VN."
+  },
+  {
+   "no": 20,
+   "from": "P0_FEED",
+   "to": "P4_PMAX",
+   "type": "Dữ liệu, insight",
+   "label": "Feed cho Shopping, PMax",
+   "why": "Cùng Merchant Center feed chạy Shopping ads, Performance Max; giá, tồn kho khớp website."
+  },
+  {
+   "no": 21,
+   "from": "P0_WEB",
+   "to": "P2_FBMSG",
+   "type": "Nội dung dùng lại",
+   "label": "FAQ làm kịch bản Messenger",
+   "why": "Cùng bộ FAQ, claim đã duyệt làm tin trả lời nhanh trong Messenger và câu trả lời bình luận của Fanpage."
+  },
+  {
+   "no": 22,
+   "from": "P0_TRACK",
+   "to": "P3_TT",
+   "type": "Tệp khán giả chuyển tiếp",
+   "label": "TikTok Pixel thành tệp website",
+   "why": "TikTok Pixel + Events API (có đồng ý) ghi người vào web từ mọi nguồn (tìm kiếm, AI, quảng cáo) thành tệp cho TikTok Ads thường."
+  },
+  {
+   "no": 23,
+   "from": "P0_FEED",
+   "to": "P0_SHOP",
+   "type": "Dữ liệu, insight",
+   "label": "Mẫu đăng sản phẩm từng sàn",
+   "why": "Cùng bảng gốc xuất ra mẫu đăng Shopee, Lazada, TikTok Shop: tên, ảnh, thành phần, giá khớp website và feed quảng cáo."
+  },
+  {
+   "no": 24,
+   "from": "P0_CLAIM",
+   "to": "P0_OFFPLAN",
+   "type": "Nội dung dùng lại",
+   "label": "Claim đã duyệt cho bảng quảng cáo",
+   "why": "Pano, băng rôn, frame dùng đúng claim trong hồ sơ công bố; nội dung bảng quảng cáo, băng rôn phải thông báo với cơ quan có thẩm quyền về quảng cáo cấp tỉnh (thường là Sở Văn hóa, Thể thao và Du lịch) 15 ngày trước khi treo (Luật Quảng cáo sửa đổi 2025). Đơn vị OOH thường lo thủ tục, kiểm tra với đơn vị."
+  },
+  {
+   "no": 25,
+   "from": "P0_OFFPLAN",
+   "to": "P1_BILLBOARD",
+   "type": "Dữ liệu, insight",
+   "label": "QR, UTM riêng từng điểm đặt",
+   "why": "Mỗi pano, màn LED một mã QR trỏ link gắn UTM riêng (utm_content là mã điểm) hoặc một mã giảm giá riêng; lượt quét, lượt dùng mã cho biết điểm nào kéo được khách."
+  },
+  {
+   "no": 26,
+   "from": "P0_OFFPLAN",
+   "to": "P1_TRANSIT",
+   "type": "Dữ liệu, insight",
+   "label": "Chọn tuyến, vị trí theo hành trình khách",
+   "why": "Chọn tuyến xe buýt, khu taxi, nhà ga, sân bay đi qua vùng có khách mục tiêu (dữ liệu đơn theo tỉnh, phường, địa giới sau sáp nhập 7/2025); mỗi tuyến, mỗi vị trí một QR hoặc mã riêng để so sánh."
+  },
+  {
+   "no": 27,
+   "from": "P0_OFFPLAN",
+   "to": "P1_FRAME",
+   "type": "Dữ liệu, insight",
+   "label": "Chọn tòa nhà theo vùng khách",
+   "why": "Chọn tòa chung cư, văn phòng theo khu có khách mục tiêu; đơn vị Frame báo danh sách tòa, số màn, tần suất phát để đối chiếu với ngân sách trước khi ký."
+  },
+  {
+   "no": 28,
+   "from": "P0_OFFPLAN",
+   "to": "P1_EVENT",
+   "type": "Dữ liệu, insight",
+   "label": "Bộ QR, form đồng ý cho sự kiện",
+   "why": "QR đăng ký, form nhận quà dùng chung một mẫu có ô đồng ý nhận tin và UTM riêng từng sự kiện; nhân viên quầy không phải ghi tay số điện thoại lên giấy."
+  },
+  {
+   "no": 29,
+   "from": "P0_OFFPLAN",
+   "to": "P5_MEASURE",
+   "type": "Dữ liệu, insight",
+   "label": "Vùng thử, vùng đối chứng cho OOH",
+   "why": "OOH không có pixel: chọn trước vùng có quảng cáo và vùng tương đồng không có, rồi so doanh số, lượt tìm tên thương hiệu (GeoLift hoặc so sánh chênh lệch trước sau giữa vùng thử và vùng đối chứng). Lượt tìm tên thương hiệu theo tỉnh đo bằng Google Trends và báo cáo vị trí người dùng của chiến dịch Search thương hiệu; Search Console (bộ lọc Branded queries) chỉ cho xu hướng cả nước. 34 tỉnh là ít vùng cho GeoLift; OOH thường chỉ ở TP.HCM, Hà Nội nên chia vùng thử theo phường, cụm phường cần dữ liệu đơn đủ chi tiết."
+  },
+  {
+   "no": 30,
+   "from": "P1_KOL",
+   "to": "P1_TT",
+   "type": "Nội dung dùng lại",
+   "label": "Mã Spark từ video KOC",
+   "why": "KOC bật Ad settings, tạo mã ủy quyền; tương tác từ quảng cáo ghi về bài gốc."
+  },
+  {
+   "no": 31,
+   "from": "P1_KOL",
+   "to": "P1_YTADS",
+   "type": "Nội dung dùng lại",
+   "label": "Video KOC chạy YouTube Ads",
+   "why": "Video đã có quyền sử dụng chạy in-stream, Shorts, Demand Gen; ghi rõ là nội dung quảng cáo."
+  },
+  {
+   "no": 32,
+   "from": "P1_KOL",
+   "to": "P1_IG",
+   "type": "Nội dung dùng lại",
+   "label": "Bài collab cùng KOC",
+   "why": "Bài collab Instagram hiện trên cả trang của KOC lẫn tài khoản thương hiệu, gộp chung lượt thích, bình luận; KOC vẫn gắn nhãn hợp tác quảng cáo."
+  },
+  {
+   "no": 33,
+   "from": "P1_KOL",
+   "to": "P3_META",
+   "type": "Nội dung dùng lại",
+   "label": "Video KOC chạy Partnership Ads",
+   "why": "Quảng cáo chạy từ handle KOC, dùng tín hiệu của cả hai tài khoản."
+  },
+  {
+   "no": 34,
+   "from": "P1_KOL",
+   "to": "P3_SHOPEE",
+   "type": "Luồng khách",
+   "label": "Tìm tên thương hiệu trên sàn",
+   "why": "Video tạo nhu cầu tìm thương hiệu; Search Ads từ khóa thương hiệu đón đúng nhu cầu này."
+  },
+  {
+   "no": 35,
+   "from": "P1_YT",
+   "to": "P2_SEO",
+   "type": "Bằng chứng xã hội",
+   "label": "Backlink từ báo, blog ngành",
+   "why": "Bài báo, blog uy tín dẫn link giúp trang có thẩm quyền hơn; bài trả phí gắn rel=\"sponsored\"."
+  },
+  {
+   "no": 36,
+   "from": "P1_YT",
+   "to": "P3_GEO",
+   "type": "Bằng chứng xã hội",
+   "label": "Mention thương hiệu trên YouTube, báo",
+   "why": "Ahrefs 12/2025: mention trên YouTube tương quan mạnh với hiện diện trong câu trả lời AI (tương quan, không phải nhân quả)."
+  },
+  {
+   "no": 37,
+   "from": "P1_TT",
+   "to": "P2_TT",
+   "type": "Tệp khán giả chuyển tiếp",
+   "label": "Tệp xem 100%, tới 180 ngày",
+   "why": "Engagement audience từ video Spark, cần tối thiểu 1.000 người để retarget."
+  },
+  {
+   "no": 38,
+   "from": "P1_TT",
+   "to": "P2_SEO",
+   "type": "Luồng khách",
+   "label": "Tìm \"thương hiệu + review\"",
+   "why": "Video làm tăng lượt tìm tên thương hiệu; theo dõi bằng bộ lọc Branded queries trong Search Console."
+  },
+  {
+   "no": 39,
+   "from": "P1_TTCH",
+   "to": "P1_TT",
+   "type": "Nội dung dùng lại",
+   "label": "Video tự nhiên tốt chạy Spark Ads",
+   "why": "Video trên kênh thương hiệu có tỷ lệ xem hết, tương tác tốt được chạy Spark Ads bằng chính bài gốc; lượt thích, theo dõi từ quảng cáo ghi về kênh."
+  },
+  {
+   "no": 40,
+   "from": "P1_TTCH",
+   "to": "P1_IG",
+   "type": "Nội dung dùng lại",
+   "label": "Video ngắn đăng chéo sang Reels",
+   "why": "Video dọc dùng lại cho Instagram Reels, xuất từ file gốc không có logo TikTok vì Instagram cho biết Reels mang logo ứng dụng khác ít được đề xuất hơn."
+  },
+  {
+   "no": 41,
+   "from": "P1_TTCH",
+   "to": "P2_ZALO",
+   "type": "Luồng khách",
+   "label": "Link bio dẫn quan tâm Zalo OA",
+   "why": "Tài khoản doanh nghiệp gắn link quan tâm Zalo OA trong bio; link gắn UTM riêng của kênh TikTok để biết khách đến từ đâu."
+  },
+  {
+   "no": 42,
+   "from": "P1_TTCH",
+   "to": "P4_TTSTORE",
+   "type": "Luồng khách",
+   "label": "Giỏ hàng trong video dẫn vào gian hàng",
+   "why": "Video và LIVE trên kênh gắn giỏ hàng sản phẩm của gian hàng TikTok Shop; khách bấm giỏ mua ngay trong TikTok, đơn ghi nhận theo từng video."
+  },
+  {
+   "no": 43,
+   "from": "P1_META",
+   "to": "P2_META",
+   "type": "Tệp khán giả chuyển tiếp",
+   "label": "Tệp ThruPlay, xem 50-95%",
+   "why": "Video engagement audience gom người xem sâu để mời nhắn tin tư vấn."
+  },
+  {
+   "no": 44,
+   "from": "P1_META",
+   "to": "P4_CPAS",
+   "type": "Tệp khán giả chuyển tiếp",
+   "label": "CPAS Awareness gom tệp",
+   "why": "Nhánh Collaborative Ads mục tiêu Awareness tạo tệp prospecting cho chiến dịch Sales về app sàn."
+  },
+  {
+   "no": 45,
+   "from": "P1_FBPAGE",
+   "to": "P1_META",
+   "type": "Nội dung dùng lại",
+   "label": "Bài tự nhiên tốt chạy quảng cáo",
+   "why": "Bài, Reels có tương tác tốt nhất trên Fanpage được chạy quảng cáo bằng chính bài đăng (giữ nguyên lượt thích, bình luận) thay vì làm creative mới."
+  },
+  {
+   "no": 46,
+   "from": "P1_FBPAGE",
+   "to": "P1_IG",
+   "type": "Nội dung dùng lại",
+   "label": "Đăng chéo bài, Reels sang Instagram",
+   "why": "Meta Business Suite lên lịch đăng cùng lúc lên Fanpage và Instagram; chú thích, tỉ lệ khung hình chỉnh theo từng nơi."
+  },
+  {
+   "no": 47,
+   "from": "P1_FBPAGE",
+   "to": "P2_FBMSG",
+   "type": "Luồng khách",
+   "label": "Bình luận, tin nhắn từ bài đăng",
+   "why": "Người bình luận hỏi giá, hỏi cách dùng được trả lời công khai rồi mời nhắn tin; nút Gửi tin nhắn trên bài dẫn thẳng vào Messenger của Fanpage."
+  },
+  {
+   "no": 48,
+   "from": "P1_FBPAGE",
+   "to": "P2_ZALO",
+   "type": "Luồng khách",
+   "label": "Bài ghim dẫn quan tâm Zalo OA",
+   "why": "Bài ghim đầu Fanpage gắn link quan tâm Zalo OA (kèm UTM) để nhận ưu đãi, tư vấn; khách quan tâm OA nhận được tin tư vấn và ưu đãi tiếp theo."
+  },
+  {
+   "no": 49,
+   "from": "P1_IG",
+   "to": "P2_ZALO",
+   "type": "Luồng khách",
+   "label": "Link in bio dẫn Zalo OA",
+   "why": "Link in bio (tối đa 5 link) có một link quan tâm Zalo OA gắn UTM riêng của Instagram; chú thích Reels nhắc xem link ở bio."
+  },
+  {
+   "no": 50,
+   "from": "P1_IG",
+   "to": "P3_IG",
+   "type": "Tệp khán giả chuyển tiếp",
+   "label": "Người xem Reels theo dõi Story",
+   "why": "Người xem Reels bấm theo dõi tài khoản sẽ thấy Story hằng ngày; đây là tệp đã biết thương hiệu, sẵn sàng hỏi đáp, so sánh."
+  },
+  {
+   "no": 51,
+   "from": "P1_YTADS",
+   "to": "P2_GSEARCH",
+   "type": "Luồng khách",
+   "label": "Xem video rồi tìm tên thương hiệu",
+   "why": "YouTube tạo nhu cầu; Search Ads từ khóa thương hiệu và \"thương hiệu + review\" đón lượt tìm sau đó."
+  },
+  {
+   "no": 52,
+   "from": "P1_YTADS",
+   "to": "P3_GADS",
+   "type": "Tệp khán giả chuyển tiếp",
+   "label": "Tệp xem video YouTube",
+   "why": "Người xem video, tương tác kênh YouTube thành tệp cho Demand Gen, remarketing."
+  },
+  {
+   "no": 53,
+   "from": "P1_SEO",
+   "to": "P2_AEO",
+   "type": "Nội dung dùng lại",
+   "label": "Bài giải thích thành câu trả lời",
+   "why": "Bài thông tin tách thành câu hỏi, trả lời ngắn cho đoạn trích, People Also Ask."
+  },
+  {
+   "no": 54,
+   "from": "P1_SEO",
+   "to": "P3_GADS",
+   "type": "Tệp khán giả chuyển tiếp",
+   "label": "Người đọc blog vào tệp remarketing",
+   "why": "Google tag ghi người đọc bài thông tin; nhắm lại bằng Demand Gen với nội dung so sánh."
+  },
+  {
+   "no": 55,
+   "from": "P1_TTCH",
+   "to": "P4_TTSHOP",
+   "type": "Nội dung dùng lại",
+   "label": "Video kênh chính thức làm creative GMV Max",
+   "why": "GMV Max lấy video từ tài khoản chính thức cùng video affiliate đã ủy quyền; video tự nhiên tốt trên kênh là nguồn creative sẵn có."
+  },
+  {
+   "no": 56,
+   "from": "P1_FBPAGE",
+   "to": "P4_FBLIVE",
+   "type": "Luồng khách",
+   "label": "Người theo dõi nhận thông báo live",
+   "why": "Người theo dõi Fanpage nhận thông báo khi phiên live bắt đầu; bài báo trước lịch live gom người xem từ sớm."
+  },
+  {
+   "no": 57,
+   "from": "P1_IG",
+   "to": "P1_META",
+   "type": "Nội dung dùng lại",
+   "label": "Reels Instagram tốt chạy quảng cáo",
+   "why": "Reels, bài collab có tương tác tốt trên Instagram được chạy quảng cáo bằng chính bài đăng, giữ nguyên lượt thích, bình luận."
+  },
+  {
+   "no": 58,
+   "from": "P1_IG",
+   "to": "P1_THREADS",
+   "type": "Nội dung dùng lại",
+   "label": "Đăng chéo bài Instagram sang Threads",
+   "why": "Tài khoản Threads gắn với tài khoản Instagram; khi đăng bài Instagram có tùy chọn chia sẻ sang Threads (tùy loại bài, kiểm tra trong ứng dụng). Viết lại chú thích thành một câu mở thảo luận thay vì dán nguyên văn, vì Threads xoay quanh phần trả lời."
+  },
+  {
+   "no": 59,
+   "from": "P1_KOL",
+   "to": "P1_THREADS",
+   "type": "Nội dung dùng lại",
+   "label": "KOC mở thảo luận trên Threads",
+   "why": "KOC đăng trải nghiệm trên tài khoản Threads của chính họ, nhắc tên thương hiệu và ghi rõ là hợp tác quảng cáo; thương hiệu đăng lại (repost) hoặc trích dẫn (quote) để thảo luận hiện trên trang của mình."
+  },
+  {
+   "no": 60,
+   "from": "P1_THREADS",
+   "to": "P1_META",
+   "type": "Nội dung dùng lại",
+   "label": "Bài Threads tốt thành creative, vị trí Threads",
+   "why": "Câu mở đầu có nhiều lượt trả lời trên Threads được dùng lại làm tiêu đề, creative cho quảng cáo nhận biết; Threads là một vị trí trong Meta Ads Manager (nằm sẵn trong Advantage+ placements, xem riêng bằng breakdown theo vị trí)."
+  },
+  {
+   "no": 61,
+   "from": "P1_THREADS",
+   "to": "P2_THREADS",
+   "type": "Tệp khán giả chuyển tiếp",
+   "label": "Người trả lời, theo dõi thành tệp trò chuyện",
+   "why": "Người trả lời, trích dẫn hoặc bấm theo dõi sau một bài viết là tệp đã biết thương hiệu; câu hỏi của họ được trả lời ngay trong luồng trả lời hoặc qua tin nhắn Threads."
+  },
+  {
+   "no": 62,
+   "from": "P1_THREADS",
+   "to": "P2_ZALO",
+   "type": "Luồng khách",
+   "label": "Link bio Threads dẫn Zalo OA",
+   "why": "Hồ sơ Threads gắn được tối đa 5 link và Insights đếm lượt bấm từng link; một link quan tâm Zalo OA gắn UTM riêng của Threads để không lẫn với khách đến từ Instagram."
+  },
+  {
+   "no": 63,
+   "from": "P1_KOL",
+   "to": "P1_EVENT",
+   "type": "Nội dung dùng lại",
+   "label": "KOL, KOC xuất hiện tại sự kiện",
+   "why": "KOL, KOC dùng thật tới quầy, workshop giao lưu và quay trải nghiệm tại chỗ; video của họ kéo người theo dõi tới sự kiện và kéo dài đời sống sự kiện trên mạng; nói rõ là hợp tác quảng cáo (Điều 15a Luật Quảng cáo sửa đổi)."
+  },
+  {
+   "no": 64,
+   "from": "P1_EVENT",
+   "to": "P1_YT",
+   "type": "Bằng chứng xã hội",
+   "label": "Báo chí đưa tin sự kiện",
+   "why": "Sự kiện ra mắt có dữ kiện mới (sản phẩm, số liệu, khách mời) cho báo chí, blog ngành lý do để viết; bài đưa tin nhắc tên thương hiệu thành mention, backlink."
+  },
+  {
+   "no": 65,
+   "from": "P1_EVENT",
+   "to": "P1_FBPAGE",
+   "type": "Nội dung dùng lại",
+   "label": "Ảnh, video sự kiện thành bài đăng",
+   "why": "Ảnh, video tại sự kiện thành bài, Reels trên Fanpage và các kênh sở hữu khác; xin phép người xuất hiện rõ mặt trước khi đăng."
+  },
+  {
+   "no": 66,
+   "from": "P1_EVENT",
+   "to": "P2_ZALO",
+   "type": "Luồng khách",
+   "label": "QR tại quầy: quan tâm Zalo OA nhận quà",
+   "why": "Khách quét QR quan tâm Zalo OA để nhận mẫu thử, quà tặng; link gắn UTM riêng từng sự kiện, tin tư vấn và ưu đãi tiếp theo gửi qua OA."
+  },
+  {
+   "no": 67,
+   "from": "P1_EVENT",
+   "to": "P2_WORKSHOP",
+   "type": "Tệp khán giả chuyển tiếp",
+   "label": "Người ghé quầy đăng ký workshop",
+   "why": "Người đã thử sản phẩm tại quầy được mời đăng ký buổi workshop, hội thảo sâu hơn; danh sách đăng ký là tệp đang tìm hiểu thật sự."
+  },
+  {
+   "no": 68,
+   "from": "P1_EVENT",
+   "to": "P4_FBLIVE",
+   "type": "Nội dung dùng lại",
+   "label": "Livestream từ sự kiện",
+   "why": "Phiên livestream quay trực tiếp tại gian hàng, sân khấu sự kiện, kèm mã giảm giá riêng phiên live cho người xem không tới được."
+  },
+  {
+   "no": 69,
+   "from": "P1_EVENT",
+   "to": "P5_CRM",
+   "type": "Dữ liệu, insight",
+   "label": "Lead, đơn tại sự kiện vào CRM",
+   "why": "Form đăng ký, đơn bán tại quầy nhập CRM, POS kèm nguồn là tên sự kiện; chỉ lưu và dùng cho quảng cáo khi khách đã đồng ý (Luật 91/2025)."
+  },
+  {
+   "no": 70,
+   "from": "P1_EVENT",
+   "to": "P5_REVIEW",
+   "type": "Bằng chứng xã hội",
+   "label": "Check-in, UGC tại sự kiện",
+   "why": "Góc check-in, hashtag riêng khuyến khích khách đăng ảnh, video thật; người nhận mẫu thử, quà ghi rõ là được tặng; xin phép tác giả trước khi dùng lại; không đổi quà lấy đánh giá tốt (sàn cấm đánh giá có thưởng)."
+  },
+  {
+   "no": 71,
+   "from": "P1_BILLBOARD",
+   "to": "P1_META",
+   "type": "Nội dung dùng lại",
+   "label": "Cùng hình ảnh, nhắm quanh điểm đặt",
+   "why": "Quảng cáo Meta dùng lại hình ảnh pano, nhắm vị trí theo bán kính quanh điểm đặt (bán kính tối thiểu khoảng 1 km, kiểm tra trong Ads Manager; vùng nhỏ dễ thiếu quy mô tệp) để người vừa thấy ngoài đường gặp lại trên điện thoại. Đây là nhắm theo khu vực, không phải bám theo từng thiết bị đã đi ngang pano."
+  },
+  {
+   "no": 72,
+   "from": "P1_BILLBOARD",
+   "to": "P2_GSEARCH",
+   "type": "Luồng khách",
+   "label": "Thấy pano rồi tìm tên thương hiệu",
+   "why": "Pano không bấm được: người xem nhớ tên rồi tìm trên Google; quảng cáo từ khóa thương hiệu đón lượt tìm này, đặt tên thương hiệu dễ gõ ngay trên pano."
+  },
+  {
+   "no": 73,
+   "from": "P1_BILLBOARD",
+   "to": "P3_DOOH",
+   "type": "Nội dung dùng lại",
+   "label": "Thông điệp pano chuyển sang màn hình số",
+   "why": "Cùng thông điệp pano được làm lại thành video ngắn cho màn hình số gần nơi mua, nhắc lại đúng lúc khách đang đi mua sắm."
+  },
+  {
+   "no": 74,
+   "from": "P1_TRANSIT",
+   "to": "P2_ZALO",
+   "type": "Luồng khách",
+   "label": "QR trên xe, nhà chờ dẫn Zalo OA",
+   "why": "Người ngồi taxi, chờ xe buýt, chờ bay có thời gian quét mã: QR trên lưng ghế, nhà chờ dẫn quan tâm Zalo OA nhận ưu đãi, link gắn UTM riêng từng tuyến, từng vị trí."
+  },
+  {
+   "no": 75,
+   "from": "P1_TRANSIT",
+   "to": "P2_SEO",
+   "type": "Luồng khách",
+   "label": "Nhớ tên trên xe rồi tìm trên Google",
+   "why": "Người thấy quảng cáo trên xe, nhà chờ nhớ tên rồi tìm trên Google; trang chủ, trang sản phẩm đứng đầu kết quả tự nhiên đón lượt tìm này."
+  },
+  {
+   "no": 76,
+   "from": "P1_TRANSIT",
+   "to": "P2_GSEARCH",
+   "type": "Luồng khách",
+   "label": "Thấy quảng cáo trên xe rồi tìm tên thương hiệu",
+   "why": "QR không phải ai cũng quét: phần lớn người xem nhớ tên rồi tìm trên Google; quảng cáo từ khóa thương hiệu đón lượt tìm này, báo cáo vị trí người dùng cho biết lượt tìm đến từ tỉnh nào."
+  },
+  {
+   "no": 77,
+   "from": "P1_FRAME",
+   "to": "P1_META",
+   "type": "Nội dung dùng lại",
+   "label": "Nhắm quanh tòa đang chạy frame",
+   "why": "Quảng cáo Meta dùng cùng hình ảnh frame, nhắm theo bán kính quanh các tòa nhà đang chạy (vùng quá nhỏ dễ thiếu quy mô tệp) để cư dân gặp lại trên điện thoại. Đây là nhắm theo khu vực, không phải bám theo từng thiết bị trong tòa."
+  },
+  {
+   "no": 78,
+   "from": "P1_FRAME",
+   "to": "P2_ZALO",
+   "type": "Luồng khách",
+   "label": "QR trên frame dẫn Zalo OA",
+   "why": "Cư dân đứng chờ thang máy có vài chục giây để quét mã: QR trên frame dẫn quan tâm Zalo OA, link gắn UTM riêng từng tòa để biết tòa nào có khách."
+  },
+  {
+   "no": 79,
+   "from": "P1_FRAME",
+   "to": "P4_FRAME",
+   "type": "Tệp khán giả chuyển tiếp",
+   "label": "Cùng cư dân: nhận biết trước, ưu đãi sau",
+   "why": "Cùng một nhóm cư dân thấy frame nhận biết nhiều ngày liền, đợt sau đổi sang frame ưu đãi riêng của tòa để chốt đơn; tần suất lặp lại là lợi thế của Frame so với OOH ngoài đường."
+  },
+  {
+   "no": 80,
+   "from": "P1_TTCH",
+   "to": "P1_YTCH",
+   "type": "Nội dung dùng lại",
+   "label": "Video dọc đăng lại thành Shorts",
+   "why": "Video dọc của kênh TikTok xuất từ file gốc (không logo TikTok) đăng lại thành YouTube Shorts; tiêu đề, mô tả viết lại theo cụm từ người xem tìm trên YouTube."
+  },
+  {
+   "no": 81,
+   "from": "P1_YTCH",
+   "to": "P1_YTADS",
+   "type": "Nội dung dùng lại",
+   "label": "Video kênh chạy YouTube Ads",
+   "why": "Video quảng cáo YouTube phải nằm trên một kênh YouTube (công khai hoặc không công khai); video có tỷ lệ xem tốt trên kênh là creative sẵn có cho in-stream, Shorts, Demand Gen."
+  },
+  {
+   "no": 82,
+   "from": "P1_YTCH",
+   "to": "P2_YTLONG",
+   "type": "Tệp khán giả chuyển tiếp",
+   "label": "Người xem Shorts, đăng ký kênh xem video dài",
+   "why": "Người xem Shorts, bấm đăng ký kênh thấy video dài mới trong trang chủ, tab Kênh đăng ký; Shorts gắn được Video liên quan trỏ tới video dài vì link trong mô tả Shorts không bấm được."
+  },
+  {
+   "no": 83,
+   "from": "P2_TT",
+   "to": "P3_TT",
+   "type": "Tệp khán giả chuyển tiếp",
+   "label": "Tệp xem sâu sang video dùng thử",
+   "why": "Tệp xem 100%, like, comment là tệp chính cho video KOC dùng thử."
+  },
+  {
+   "no": 84,
+   "from": "P2_TT",
+   "to": "P0_WEB",
+   "type": "Dữ liệu, insight",
+   "label": "Search Terms thành FAQ",
+   "why": "Báo cáo Search Terms của Automatic Search Placement cho câu hỏi thật để bổ sung FAQ, brief KOC."
+  },
+  {
+   "no": 85,
+   "from": "P2_META",
+   "to": "P3_META",
+   "type": "Tệp khán giả chuyển tiếp",
+   "label": "Tệp nhắn tin, lưu bài",
+   "why": "Người nhắn tin, lưu bài là nhóm cân nhắc kỹ, nhận review KOC và chính sách đổi trả."
+  },
+  {
+   "no": 86,
+   "from": "P2_FBMSG",
+   "to": "P2_OAI",
+   "type": "Dữ liệu, insight",
+   "label": "Câu hỏi inbox thành chat card",
+   "why": "Câu hỏi lặp lại trong inbox Fanpage (thành phần, cách dùng, giá) thành tiêu đề chat card và Context Hints."
+  },
+  {
+   "no": 87,
+   "from": "P2_META",
+   "to": "P2_FBMSG",
+   "type": "Luồng khách",
+   "label": "Quảng cáo tin nhắn đổ về inbox Fanpage",
+   "why": "Quảng cáo Click-to-Messenger mở cuộc trò chuyện ngay trong hộp thư Fanpage; tin chào tự động hỏi nhu cầu trước khi nhân viên vào tư vấn."
+  },
+  {
+   "no": 88,
+   "from": "P2_FBMSG",
+   "to": "P5_CRM",
+   "type": "Dữ liệu, insight",
+   "label": "Đơn chốt inbox vào CRM, gửi CAPI",
+   "why": "Đơn chốt qua Messenger nhập CRM kèm nguồn, gửi Purchase về Meta bằng CAPI for Business Messaging; có đồng ý mới lưu dữ liệu khách."
+  },
+  {
+   "no": 89,
+   "from": "P2_FBMSG",
+   "to": "P2_ZCN",
+   "type": "Luồng khách",
+   "label": "Khách inbox chuyển sang Zalo",
+   "why": "Khách nhắn vào Messenger của Fanpage muốn tư vấn tiếp qua Zalo; nhân viên kết bạn khi khách chủ động gửi số."
+  },
+  {
+   "no": 90,
+   "from": "P2_FBMSG",
+   "to": "P4_WEB",
+   "type": "Luồng khách",
+   "label": "Gửi link website gắn UTM",
+   "why": "Tư vấn xong gửi link trang sản phẩm gắn UTM riêng của Messenger để đơn web ghi đúng nguồn Fanpage."
+  },
+  {
+   "no": 91,
+   "from": "P2_FBMSG",
+   "to": "P4_TTSTORE",
+   "type": "Luồng khách",
+   "label": "Gửi link sản phẩm TikTok Shop",
+   "why": "Khách quen mua trên TikTok Shop được gửi link sản phẩm trong gian hàng; khách mua ngay trong TikTok với chính sách đổi trả của sàn."
+  },
+  {
+   "no": 92,
+   "from": "P2_FBMSG",
+   "to": "P4_ZMA",
+   "type": "Luồng khách",
+   "label": "Gửi link Zalo Mini App",
+   "why": "Khách dùng Zalo nhận link Mini App để tự đặt hàng, thanh toán, theo dõi đơn ngay trong Zalo."
+  },
+  {
+   "no": 93,
+   "from": "P2_ZALO",
+   "to": "P3_ZADS",
+   "type": "Tệp khán giả chuyển tiếp",
+   "label": "Người quan tâm OA",
+   "why": "Người quan tâm OA, đã nhắn tin thành tệp cho Zalo Ads; kiểm tra tùy chọn nhắm trong tài khoản."
+  },
+  {
+   "no": 94,
+   "from": "P2_ZALO",
+   "to": "P4_ZMA",
+   "type": "Luồng khách",
+   "label": "OA dẫn vào Mini App",
+   "why": "Menu OA, tin tư vấn gắn link Mini App; khách mua ngay trong Zalo, không phải rời ứng dụng."
+  },
+  {
+   "no": 95,
+   "from": "P2_ZALO",
+   "to": "P4_SHOPEE",
+   "type": "Luồng khách",
+   "label": "Tin OA gửi link gian hàng Shopee",
+   "why": "Khách quen mua trên Shopee nhận link gian hàng Shopee Mall trong tin OA, gắn UTM ngoại sàn kèm mã giảm giá riêng kênh Zalo để đối soát đơn."
+  },
+  {
+   "no": 96,
+   "from": "P2_ZALO",
+   "to": "P4_TTSTORE",
+   "type": "Luồng khách",
+   "label": "Tin OA gửi link gian hàng TikTok Shop",
+   "why": "Tin OA, menu OA gửi link sản phẩm trong gian hàng TikTok Shop cho khách quen mua trên TikTok; mã giảm giá riêng kênh Zalo giúp tách đơn đến từ OA khi đối soát."
+  },
+  {
+   "no": 97,
+   "from": "P2_ZALO",
+   "to": "P5_CRM",
+   "type": "Dữ liệu, insight",
+   "label": "Đơn chốt qua OA, có đồng ý",
+   "why": "Số điện thoại, đơn chốt qua OA chỉ lưu vào CRM khi khách đồng ý (Luật 91/2025)."
+  },
+  {
+   "no": 98,
+   "from": "P2_ZCN",
+   "to": "P4_ZCHAT",
+   "type": "Luồng khách",
+   "label": "Tư vấn xong chốt qua tin nhắn",
+   "why": "Khách quen mua qua chat: nhân viên xác nhận sản phẩm, địa chỉ, lên đơn COD ngay trong Zalo."
+  },
+  {
+   "no": 99,
+   "from": "P2_ZCN",
+   "to": "P4_WEB",
+   "type": "Luồng khách",
+   "label": "Gửi link website gắn UTM",
+   "why": "Link sản phẩm gắn UTM riêng từng nhân viên để biết đơn web đến từ Zalo cá nhân."
+  },
+  {
+   "no": 100,
+   "from": "P2_GSEARCH",
+   "to": "P3_GADS",
+   "type": "Tệp khán giả chuyển tiếp",
+   "label": "Người click quảng cáo tìm kiếm",
+   "why": "Người click vào web thành tệp remarketing; RLSA tăng giá thầu khi họ tìm lại."
+  },
+  {
+   "no": 101,
+   "from": "P2_GSEARCH",
+   "to": "P0_WEB",
+   "type": "Dữ liệu, insight",
+   "label": "Cụm từ tìm kiếm thành FAQ",
+   "why": "Báo cáo cụm từ tìm kiếm cho câu hỏi thật để bổ sung FAQ và trang so sánh."
+  },
+  {
+   "no": 102,
+   "from": "P2_SEO",
+   "to": "P3_SEO",
+   "type": "Nội dung dùng lại",
+   "label": "Cụm chủ đề dẫn tới trang so sánh",
+   "why": "Liên kết nội bộ từ trang sản phẩm, bài thông tin sang trang so sánh, review."
+  },
+  {
+   "no": 103,
+   "from": "P2_SEO",
+   "to": "P3_AEO",
+   "type": "Nội dung dùng lại",
+   "label": "Trang top 10 làm nguồn cho AI Overviews",
+   "why": "AI Overviews dùng query fan-out; Ahrefs 7/2025: khoảng 76% trang được trích nằm trong top 10 (tương quan)."
+  },
+  {
+   "no": 104,
+   "from": "P2_SEO",
+   "to": "P3_GEO",
+   "type": "Nội dung dùng lại",
+   "label": "Trang được index làm nguồn cho AI",
+   "why": "ChatGPT, Copilot, Perplexity tìm trên chỉ mục web; trang không được index khó được trích dẫn."
+  },
+  {
+   "no": 105,
+   "from": "P2_AEO",
+   "to": "P2_GSEARCH",
+   "type": "Dữ liệu, insight",
+   "label": "Câu hỏi thật thành từ khóa",
+   "why": "Câu hỏi từ People Also Ask, Search Console làm từ khóa và tiêu đề quảng cáo tìm kiếm."
+  },
+  {
+   "no": 106,
+   "from": "P2_AEO",
+   "to": "P3_AEO",
+   "type": "Nội dung dùng lại",
+   "label": "Câu hỏi so sánh tiếp theo",
+   "why": "People Also Ask cho thấy câu hỏi tiếp theo của khách; viết thành mục so sánh."
+  },
+  {
+   "no": 107,
+   "from": "P2_GEO",
+   "to": "P3_OAI",
+   "type": "Dữ liệu, insight",
+   "label": "Câu hỏi AI thành Context Hints",
+   "why": "Impressions AI (Search Console), grounding queries (Bing, dữ liệu Copilot) gợi ý chủ đề; Context Hints không phải từ khóa nhắm."
+  },
+  {
+   "no": 108,
+   "from": "P2_GEO",
+   "to": "P3_GEO",
+   "type": "Nội dung dùng lại",
+   "label": "Được trích ở câu hỏi tìm hiểu, rồi câu hỏi so sánh",
+   "why": "Thương hiệu đã được AI trích ở câu hỏi \"là gì, dùng thế nào\" dễ có mặt trong câu trả lời \"X hay Y\" hơn (tương quan). Lượt vào web từ chatgpt.com vẫn được pixel ghi thành tệp retarget như mọi nguồn khác."
+  },
+  {
+   "no": 109,
+   "from": "P2_OAI",
+   "to": "P3_META",
+   "type": "Tệp khán giả chuyển tiếp",
+   "label": "Click OpenAI Ads vào tệp Meta",
+   "why": "OpenAI không retarget theo website; Meta Pixel trên landing ghi lượt truy cập để retarget."
+  },
+  {
+   "no": 110,
+   "from": "P2_OAI",
+   "to": "P3_GEO",
+   "type": "Nội dung dùng lại",
+   "label": "Ask ChatGPT: AI tự thẩm định thương hiệu",
+   "why": "Khách hỏi ChatGPT về quảng cáo; câu trả lời do nội dung đã index quyết định, advertiser không tác động."
+  },
+  {
+   "no": 111,
+   "from": "P2_OAI",
+   "to": "P4_OAI",
+   "type": "Dữ liệu, insight",
+   "label": "Click có oppref tích lũy sự kiện",
+   "why": "Giai đoạn Clicks gom order_created, lead_created rồi tạo chiến dịch Conversions mới (không đổi được mục tiêu)."
+  },
+  {
+   "no": 112,
+   "from": "P2_FBMSG",
+   "to": "P4_SHOPEE",
+   "type": "Luồng khách",
+   "label": "Gửi link gian hàng Shopee",
+   "why": "Khách quen mua trên Shopee nhận link sản phẩm trong gian hàng Mall kèm mã giảm giá riêng kênh Fanpage để đối soát."
+  },
+  {
+   "no": 113,
+   "from": "P2_ZALO",
+   "to": "P4_WEB",
+   "type": "Luồng khách",
+   "label": "Menu, tin OA dẫn về website",
+   "why": "Menu OA, tin tư vấn gắn link trang sản phẩm có UTM riêng của Zalo OA cho khách muốn thanh toán online trên web."
+  },
+  {
+   "no": 114,
+   "from": "P2_GSEARCH",
+   "to": "P4_WEB",
+   "type": "Luồng khách",
+   "label": "Tìm tên thương hiệu rồi mua luôn",
+   "why": "Quảng cáo từ khóa thương hiệu dẫn thẳng vào trang sản phẩm; người tìm tên thương hiệu thường đã sẵn sàng mua."
+  },
+  {
+   "no": 115,
+   "from": "P2_THREADS",
+   "to": "P2_ZCN",
+   "type": "Luồng khách",
+   "label": "Khách muốn tư vấn riêng chuyển sang Zalo",
+   "why": "Khách hỏi trong phần trả lời hoặc tin nhắn Threads muốn tư vấn kỹ được mời sang Zalo; nhân viên kết bạn khi khách chủ động gửi số, không xin số điện thoại công khai trong phần trả lời."
+  },
+  {
+   "no": 116,
+   "from": "P2_THREADS",
+   "to": "P0_WEB",
+   "type": "Dữ liệu, insight",
+   "label": "Câu hỏi trên Threads thành FAQ",
+   "why": "Câu hỏi lặp lại trong phần trả lời, tin nhắn Threads (thành phần, cách dùng, so với lựa chọn khác) được gom vào FAQ website, kịch bản tư vấn và brief KOC."
+  },
+  {
+   "no": 117,
+   "from": "P2_THREADS",
+   "to": "P3_THREADS",
+   "type": "Nội dung dùng lại",
+   "label": "Câu hỏi lặp lại thành bài giải đáp công khai",
+   "why": "Câu hỏi so sánh gặp nhiều lần được viết thành một bài trả lời công khai có số đo, nguồn rõ ràng; người đang so sánh tìm thấy câu trả lời của thương hiệu ngay trong thảo luận thay vì chỉ thấy lời đồn."
+  },
+  {
+   "no": 118,
+   "from": "P2_ZALO",
+   "to": "P2_WORKSHOP",
+   "type": "Luồng khách",
+   "label": "Tin OA mời workshop",
+   "why": "Người quan tâm OA nhận tin mời đăng ký workshop, hội thảo theo đúng chủ đề họ đã hỏi; nhắc lịch trước buổi qua OA."
+  },
+  {
+   "no": 119,
+   "from": "P2_WORKSHOP",
+   "to": "P0_WEB",
+   "type": "Dữ liệu, insight",
+   "label": "Câu hỏi tại workshop thành FAQ",
+   "why": "Câu hỏi người dự hỏi trực tiếp (nhất là câu khó, câu phản bác) được ghi lại, bổ sung FAQ website, kịch bản tư vấn và brief KOC."
+  },
+  {
+   "no": 120,
+   "from": "P2_WORKSHOP",
+   "to": "P4_WEB",
+   "type": "Luồng khách",
+   "label": "Ưu đãi riêng người dự, link UTM",
+   "why": "Cuối buổi gửi link trang sản phẩm gắn UTM riêng từng buổi kèm mã ưu đãi có hạn cho người dự, qua Zalo OA hoặc email đã đồng ý."
+  },
+  {
+   "no": 121,
+   "from": "P2_WORKSHOP",
+   "to": "P5_CRM",
+   "type": "Dữ liệu, insight",
+   "label": "Người đăng ký workshop vào CRM",
+   "why": "Danh sách đăng ký, điểm danh nhập CRM kèm nguồn là tên buổi; chỉ dùng cho quảng cáo khi có đồng ý (Luật 91/2025)."
+  },
+  {
+   "no": 122,
+   "from": "P2_WORKSHOP",
+   "to": "P2_YTLONG",
+   "type": "Nội dung dùng lại",
+   "label": "Ghi hình workshop thành video dài",
+   "why": "Bản ghi chia chapter theo câu hỏi, đăng kênh YouTube cho người không tới được; báo trước người dự là buổi được ghi hình."
+  },
+  {
+   "no": 123,
+   "from": "P2_YTLONG",
+   "to": "P2_AEO",
+   "type": "Nội dung dùng lại",
+   "label": "Chapter thành khoảnh khắc chính trên Google",
+   "why": "Video chia chapter (mốc thời gian trong mô tả) có cơ hội hiện phần khoảnh khắc chính (key moments) trong kết quả Google, dẫn thẳng tới đoạn trả lời câu hỏi."
+  },
+  {
+   "no": 124,
+   "from": "P2_YTLONG",
+   "to": "P2_ZALO",
+   "type": "Luồng khách",
+   "label": "Link mô tả, bình luận ghim dẫn Zalo OA",
+   "why": "Mô tả video dài và bình luận ghim gắn link quan tâm Zalo OA có UTM riêng của YouTube cho người muốn hỏi thêm."
+  },
+  {
+   "no": 125,
+   "from": "P2_YTLONG",
+   "to": "P3_GADS",
+   "type": "Tệp khán giả chuyển tiếp",
+   "label": "Người xem kênh YouTube thành tệp remarketing",
+   "why": "Liên kết kênh YouTube với tài khoản Google Ads để người xem video, đăng ký kênh thành tệp cho Demand Gen, remarketing (tệp tự nhiên, khác tệp xem quảng cáo)."
+  },
+  {
+   "no": 126,
+   "from": "P2_YTLONG",
+   "to": "P3_YTREVIEW",
+   "type": "Nội dung dùng lại",
+   "label": "Playlist, màn hình kết thúc dẫn sang video so sánh",
+   "why": "Màn hình kết thúc, thẻ và playlist nối video hướng dẫn sang video so sánh, review dài cho người xem đã hiểu sản phẩm."
+  },
+  {
+   "no": 127,
+   "from": "P3_KOC",
+   "to": "P4_TTSHOP",
+   "type": "Nội dung dùng lại",
+   "label": "Video affiliate vào GMV Max",
+   "why": "KOC cho phép nhà bán quảng cáo video; Product GMV Max chọn nguồn Affiliate post."
+  },
+  {
+   "no": 128,
+   "from": "P3_KOC",
+   "to": "P4_SHOPEE",
+   "type": "Luồng khách",
+   "label": "Link affiliate riêng từng KOC",
+   "why": "Shopee Affiliate cho KOC link riêng dùng trên mọi nền tảng, Shopee Video, Shopee Live; Facebook Affiliate gắn sản phẩm Shopee (có ở VN từ 10/2025); đơn ghi nhận trong 7 ngày sau click. YouTuber đủ điều kiện gắn sản phẩm Shopee qua YouTube Shopping Affiliate."
+  },
+  {
+   "no": 129,
+   "from": "P3_TT",
+   "to": "P4_TTSHOP",
+   "type": "Nội dung dùng lại",
+   "label": "Video so sánh làm creative LIVE",
+   "why": "TikTok Shop Ads (GMV Max) tự phân phối, không nhận tệp; video so sánh của chiến dịch TikTok Ads thường dùng làm creative kéo vào phiên LIVE."
+  },
+  {
+   "no": 130,
+   "from": "P3_TT",
+   "to": "P4_WEB",
+   "type": "Luồng khách",
+   "label": "TikTok Ads thường dẫn về website",
+   "why": "Chiến dịch Traffic, Website Conversions đưa người xem về trang mua; TikTok Pixel + Events API ghi đơn web. TikTok Shop Ads thì chỉ chạy về gian hàng TikTok Shop, không dẫn ra website."
+  },
+  {
+   "no": 131,
+   "from": "P3_META",
+   "to": "P4_CPAS",
+   "type": "Tệp khán giả chuyển tiếp",
+   "label": "Tệp tương tác dùng cho CPAS",
+   "why": "Collaborative Ads mục tiêu Sales nhắm tệp đã xem video, nhắn tin, lưu bài."
+  },
+  {
+   "no": 132,
+   "from": "P3_META",
+   "to": "P4_WEB",
+   "type": "Luồng khách",
+   "label": "Remarketing ưu đãi dùng thử",
+   "why": "Tệp website và tệp tương tác nhận ưu đãi size dùng thử, dẫn về website."
+  },
+  {
+   "no": 133,
+   "from": "P3_META",
+   "to": "P4_FBLIVE",
+   "type": "Tệp khán giả chuyển tiếp",
+   "label": "Quảng cáo kéo tệp tương tác vào live",
+   "why": "Quảng cáo video trực tiếp nhắm tệp đã xem video, nhắn tin, tương tác Fanpage để kéo người xem vào phiên livestream chốt đơn."
+  },
+  {
+   "no": 134,
+   "from": "P3_IG",
+   "to": "P4_WEB",
+   "type": "Luồng khách",
+   "label": "Link in bio, sticker link về website",
+   "why": "Sticker link trong Story và link in bio dẫn về trang sản phẩm gắn UTM riêng của Instagram."
+  },
+  {
+   "no": 135,
+   "from": "P3_IG",
+   "to": "P4_SHOPEE",
+   "type": "Luồng khách",
+   "label": "Link in bio dẫn gian hàng Shopee",
+   "why": "Link in bio, sticker link trỏ gian hàng Shopee Mall, gắn UTM ngoại sàn để đo lượt vào từ Instagram."
+  },
+  {
+   "no": 136,
+   "from": "P3_IG",
+   "to": "P4_TTSTORE",
+   "type": "Luồng khách",
+   "label": "Link in bio dẫn gian hàng TikTok Shop",
+   "why": "Link sản phẩm TikTok Shop trong bio, Story mở thẳng app TikTok; khách mua với chính sách đổi trả của sàn."
+  },
+  {
+   "no": 137,
+   "from": "P3_IG",
+   "to": "P4_ZMA",
+   "type": "Luồng khách",
+   "label": "Link dẫn vào Zalo Mini App",
+   "why": "Sticker link, link in bio mở Zalo Mini App cho khách quen dùng Zalo tự đặt hàng, theo dõi đơn."
+  },
+  {
+   "no": 138,
+   "from": "P3_IG",
+   "to": "P4_ZCHAT",
+   "type": "Luồng khách",
+   "label": "Direct chuyển sang Zalo cá nhân chốt đơn",
+   "why": "Khách hỏi qua Instagram Direct muốn chốt nhanh được nhân viên kết bạn Zalo khi khách chủ động gửi số, lên đơn ngay trong tin nhắn."
+  },
+  {
+   "no": 139,
+   "from": "P3_ZADS",
+   "to": "P4_WEB",
+   "type": "Luồng khách",
+   "label": "Ưu đãi Zalo dẫn về trang mua",
+   "why": "Quảng cáo Zalo dẫn về trang sản phẩm gắn UTM riêng của Zalo Ads để tách khỏi đơn đến từ tin OA."
+  },
+  {
+   "no": 140,
+   "from": "P3_ZADS",
+   "to": "P4_ZMA",
+   "type": "Luồng khách",
+   "label": "Quảng cáo Zalo mở Mini App",
+   "why": "Người quan tâm OA nhận quảng cáo dẫn vào Mini App; kiểm tra định dạng đích Mini App trong tài khoản Zalo Ads."
+  },
+  {
+   "no": 141,
+   "from": "P3_GADS",
+   "to": "P4_PMAX",
+   "type": "Tệp khán giả chuyển tiếp",
+   "label": "Tệp remarketing làm audience signal",
+   "why": "Tệp website, YouTube, Customer Match thêm vào audience signal của Performance Max."
+  },
+  {
+   "no": 142,
+   "from": "P3_SEO",
+   "to": "P4_WEB",
+   "type": "Luồng khách",
+   "label": "Trang so sánh dẫn vào trang mua",
+   "why": "Trang so sánh, review dẫn link nội bộ tới trang sản phẩm; nút sang sàn gắn UTM."
+  },
+  {
+   "no": 143,
+   "from": "P3_AEO",
+   "to": "P4_AEO",
+   "type": "Nội dung dùng lại",
+   "label": "Từ so sánh tới câu hỏi mua",
+   "why": "Sau khi so sánh, khách hỏi mua ở đâu, đổi trả thế nào; trang cần trả lời sẵn."
+  },
+  {
+   "no": 144,
+   "from": "P3_GEO",
+   "to": "P4_WEB",
+   "type": "Luồng khách",
+   "label": "Click trích dẫn vào trang mua",
+   "why": "Khách bấm link trích dẫn trong ChatGPT, Perplexity, Copilot vào trang sản phẩm (utm_source=chatgpt.com)."
+  },
+  {
+   "no": 145,
+   "from": "P3_OAI",
+   "to": "P4_WEB",
+   "type": "Luồng khách",
+   "label": "Click về landing, nút sàn gắn UTM",
+   "why": "Giữ oppref và Pixel trên web; OpenAI không đo được đơn sàn nên nút sang sàn gắn UTM riêng."
+  },
+  {
+   "no": 146,
+   "from": "P3_SHOPEE",
+   "to": "P4_CPAS",
+   "type": "Tệp khán giả chuyển tiếp",
+   "label": "Người xem, thêm giỏ trên sàn",
+   "why": "Collaborative Ads retarget người đã xem, thêm giỏ sản phẩm trên app sàn (Lazada: 180 ngày)."
+  },
+  {
+   "no": 147,
+   "from": "P3_SHOPEE",
+   "to": "P4_SHOPEE",
+   "type": "Luồng khách",
+   "label": "Search Ads dẫn vào gian hàng",
+   "why": "Khách tìm từ khóa chung của ngành hàng gặp thương hiệu, mua trong Mall có chính sách trả hàng rõ."
+  },
+  {
+   "no": 148,
+   "from": "P3_KOC",
+   "to": "P4_TTSTORE",
+   "type": "Luồng khách",
+   "label": "Video, LIVE affiliate gắn giỏ",
+   "why": "KOC thêm sản phẩm vào giỏ hàng của mình, gắn vào video, LIVE; khách bấm giỏ mua ngay trong gian hàng TikTok Shop, đơn tính hoa hồng cho KOC."
+  },
+  {
+   "no": 149,
+   "from": "P3_KOC",
+   "to": "P4_WEB",
+   "type": "Luồng khách",
+   "label": "Link giới thiệu về website",
+   "why": "Link affiliate qua mạng affiliate (Accesstrade, Ecomobi) hoặc chương trình affiliate riêng của website; mã giới thiệu từng KOC để trả hoa hồng đúng người."
+  },
+  {
+   "no": 150,
+   "from": "P3_GADS",
+   "to": "P4_WEB",
+   "type": "Luồng khách",
+   "label": "Remarketing dẫn quay lại trang mua",
+   "why": "Demand Gen, Display nhắc lại sản phẩm đã xem, dẫn người đã vào web quay lại trang mua; RLSA đẩy giá thầu khi họ tìm lại."
+  },
+  {
+   "no": 151,
+   "from": "P3_THREADS",
+   "to": "P4_WEB",
+   "type": "Luồng khách",
+   "label": "Link trong bài, bio dẫn về trang mua",
+   "why": "Threads cho gắn link trong bài, trong phần trả lời và ở hồ sơ; Meta cho biết đã chỉnh xếp hạng để bài có link được đề xuất nhiều hơn trước (không phải cam kết lượt hiển thị). Link trang sản phẩm gắn UTM riêng của Threads để đơn web ghi đúng nguồn."
+  },
+  {
+   "no": 152,
+   "from": "P3_THREADS",
+   "to": "P4_SHOPEE",
+   "type": "Luồng khách",
+   "label": "Link gian hàng Shopee trên Threads",
+   "why": "Link gian hàng Shopee Mall trong bio hoặc phần trả lời gắn UTM ngoại sàn, kèm mã giảm giá riêng kênh Threads để đối soát đơn."
+  },
+  {
+   "no": 153,
+   "from": "P3_THREADS",
+   "to": "P4_TTSTORE",
+   "type": "Luồng khách",
+   "label": "Link sản phẩm TikTok Shop trên Threads",
+   "why": "Link sản phẩm trong gian hàng TikTok Shop mở thẳng app TikTok cho khách quen mua ở đó; mã giảm giá riêng kênh Threads giúp tách đơn đến từ Threads khi đối soát."
+  },
+  {
+   "no": 154,
+   "from": "P3_YTREVIEW",
+   "to": "P3_GEO",
+   "type": "Nội dung dùng lại",
+   "label": "Video so sánh làm nguồn cho AI",
+   "why": "Tiêu đề, phụ đề, chapter giúp AI đọc được nội dung video; nói rõ tên thương hiệu và dữ kiện ngay trong lời thoại để AI Overviews, Gemini có thể dẫn đúng video khi trả lời câu hỏi so sánh."
+  },
+  {
+   "no": 155,
+   "from": "P3_YTREVIEW",
+   "to": "P4_WEB",
+   "type": "Luồng khách",
+   "label": "Link mô tả, thẻ về trang mua",
+   "why": "Link trang sản phẩm đầu mô tả, bình luận ghim gắn UTM riêng của YouTube; thẻ, màn hình kết thúc trỏ ra website thì kênh phải ở Chương trình Đối tác YouTube (kiểm tra trong YouTube Studio)."
+  },
+  {
+   "no": 156,
+   "from": "P3_YTREVIEW",
+   "to": "P4_SHOPEE",
+   "type": "Luồng khách",
+   "label": "YouTube Shopping gắn sản phẩm Shopee",
+   "why": "Từ 11/2024 YouTube Shopping Affiliate ở Việt Nam cho gắn sản phẩm Shopee vào video, Shorts, live; kênh phải ở Chương trình Đối tác YouTube, từ 10.000 người đăng ký. Kênh thương hiệu chưa đủ điều kiện dùng link gian hàng trong mô tả, bình luận ghim gắn UTM ngoại sàn."
+  },
+  {
+   "no": 157,
+   "from": "P3_DOOH",
+   "to": "P4_SHOPEE",
+   "type": "Luồng khách",
+   "label": "QR trên màn hình số dẫn gian hàng",
+   "why": "Màn hình trong trung tâm thương mại, siêu thị hiện QR dẫn gian hàng Shopee Mall kèm mã giảm giá riêng kênh DOOH, để đếm được đơn đến từ màn hình; mỗi lượt phát chỉ vài giây, QR cần hiện đủ lâu và đủ lớn."
+  },
+  {
+   "no": 158,
+   "from": "P3_DOOH",
+   "to": "P5_MEASURE",
+   "type": "Dữ liệu, insight",
+   "label": "Báo cáo phát theo màn, theo giờ",
+   "why": "Báo cáo phát (proof of play) theo từng màn, từng khung giờ đối chiếu với doanh số, lượt tìm theo vùng và khung giờ để ước lượng phần tăng thêm."
+  },
+  {
+   "no": 159,
+   "from": "P4_TTSHOP",
+   "to": "P4_TTSTORE",
+   "type": "Luồng khách",
+   "label": "TikTok Shop Ads đưa khách vào gian hàng",
+   "why": "GMV Max tự phân phối video, LIVE tới người có khả năng mua; khách bấm quảng cáo vào trang sản phẩm trong gian hàng, đơn ghi nhận trong TikTok Shop."
+  },
+  {
+   "no": 160,
+   "from": "P4_TTSTORE",
+   "to": "P5_TT",
+   "type": "Tệp khán giả chuyển tiếp",
+   "label": "Tệp Complete Payment",
+   "why": "Đơn trong gian hàng TikTok Shop sinh tệp đã thanh toán (7-180 ngày) để loại trừ, làm Lookalike."
+  },
+  {
+   "no": 161,
+   "from": "P4_TTSTORE",
+   "to": "P5_REVIEW",
+   "type": "Bằng chứng xã hội",
+   "label": "Đánh giá, tỷ lệ hoàn trên Shop",
+   "why": "Đánh giá là bằng chứng cho lứa video KOC sau; tỷ lệ hoàn ảnh hưởng việc giữ Affiliate."
+  },
+  {
+   "no": 162,
+   "from": "P4_CPAS",
+   "to": "P5_MEASURE",
+   "type": "Dữ liệu, insight",
+   "label": "Purchases with shared items",
+   "why": "Pixel thuộc sàn, thương hiệu chỉ thấy số tổng hợp để đối soát với đơn thực."
+  },
+  {
+   "no": 163,
+   "from": "P4_FBLIVE",
+   "to": "P4_WEB",
+   "type": "Luồng khách",
+   "label": "Link website ghim trong live",
+   "why": "Bình luận ghim trong livestream chứa link trang sản phẩm gắn UTM riêng của phiên live; khách đặt trên web khi muốn thanh toán online."
+  },
+  {
+   "no": 164,
+   "from": "P4_FBLIVE",
+   "to": "P4_SHOPEE",
+   "type": "Luồng khách",
+   "label": "Ghim link Shopee trong live",
+   "why": "Ghim link gian hàng Shopee kèm mã giảm giá riêng của kênh Fanpage để đối soát đơn đến từ livestream."
+  },
+  {
+   "no": 165,
+   "from": "P4_PMAX",
+   "to": "P5_MEASURE",
+   "type": "Dữ liệu, insight",
+   "label": "Enhanced Conversions để đối soát",
+   "why": "Enhanced Conversions + Consent Mode; tách brand, non-brand; so với đơn thực tế."
+  },
+  {
+   "no": 166,
+   "from": "P4_AEO",
+   "to": "P4_WEB",
+   "type": "Luồng khách",
+   "label": "Câu trả lời dẫn tới trang mua",
+   "why": "Khách bấm từ đoạn trích, AI Overviews vào trang sản phẩm; theo dõi trong Search Console."
+  },
+  {
+   "no": 167,
+   "from": "P4_OAI",
+   "to": "P5_MEASURE",
+   "type": "Dữ liệu, insight",
+   "label": "Order Created để đối soát",
+   "why": "Cửa sổ click 7/14/30 ngày, view 0 hoặc 1 ngày; đối chiếu mã giảm giá riêng của kênh ChatGPT."
+  },
+  {
+   "no": 168,
+   "from": "P4_ZMA",
+   "to": "P5_CRM",
+   "type": "Dữ liệu, insight",
+   "label": "Đơn Mini App về CRM",
+   "why": "Mini App chỉ lấy số điện thoại khi khách cho phép; đơn đồng bộ về CRM để loại trừ quảng cáo, chăm sóc sau mua."
+  },
+  {
+   "no": 169,
+   "from": "P4_ZMA",
+   "to": "P5_ZNS",
+   "type": "Dữ liệu, insight",
+   "label": "Xác nhận, cập nhật đơn qua ZNS",
+   "why": "Đơn trong Mini App gửi ZNS xác nhận, báo giao hàng theo mẫu đã duyệt."
+  },
+  {
+   "no": 170,
+   "from": "P4_ZCHAT",
+   "to": "P5_CRM",
+   "type": "Dữ liệu, insight",
+   "label": "Nhập đơn chat kèm nguồn",
+   "why": "Đơn chốt qua tin nhắn nhập vào CRM, POS với nguồn \"Zalo cá nhân\" và tên nhân viên để đối soát."
+  },
+  {
+   "no": 171,
+   "from": "P4_WEB",
+   "to": "P4_ZCHAT",
+   "type": "Luồng khách",
+   "label": "Nút chat Zalo trên trang mua",
+   "why": "Khách còn phân vân bấm nút chat Zalo trên trang sản phẩm để hỏi nhân viên; link gắn nguồn website để đối soát đơn chốt qua chat."
+  },
+  {
+   "no": 172,
+   "from": "P4_WEB",
+   "to": "P5_CRM",
+   "type": "Dữ liệu, insight",
+   "label": "Người mua có đồng ý marketing",
+   "why": "Có đồng ý mới được tải danh sách lên Meta, TikTok, Google, Zalo, OpenAI (Luật 91/2025)."
+  },
+  {
+   "no": 173,
+   "from": "P4_WEB",
+   "to": "P5_EMAIL",
+   "type": "Dữ liệu, insight",
+   "label": "Đơn web kèm đồng ý nhận tin",
+   "why": "Khách chọn nhận email, SMS khi đặt hàng; lưu thời điểm và nội dung đồng ý."
+  },
+  {
+   "no": 174,
+   "from": "P4_SHOPEE",
+   "to": "P5_REVIEW",
+   "type": "Bằng chứng xã hội",
+   "label": "Đơn hoàn thành, thưởng Xu review",
+   "why": "Shopee thưởng Xu cho đánh giá có ảnh, video trong thời hạn quy định (kiểm tra điều kiện trên app)."
+  },
+  {
+   "no": 175,
+   "from": "P4_CPAS",
+   "to": "P4_SHOPEE",
+   "type": "Luồng khách",
+   "label": "CPAS dẫn vào trang sản phẩm trên sàn",
+   "why": "Quảng cáo catalog mở thẳng trang sản phẩm trong app Shopee, Lazada; đơn ghi nhận trên sàn và báo về dưới dạng số tổng hợp."
+  },
+  {
+   "no": 176,
+   "from": "P4_PMAX",
+   "to": "P4_WEB",
+   "type": "Luồng khách",
+   "label": "Shopping, PMax dẫn vào trang sản phẩm",
+   "why": "Quảng cáo mua sắm hiện ảnh, giá từ Merchant Center feed; khách bấm vào đúng trang sản phẩm trên website."
+  },
+  {
+   "no": 177,
+   "from": "P4_OAI",
+   "to": "P4_WEB",
+   "type": "Luồng khách",
+   "label": "Chiến dịch Conversions dẫn về trang mua",
+   "why": "Khách bấm quảng cáo dưới câu trả lời ChatGPT vào landing; oppref được giữ để gửi order_created về OpenAI."
+  },
+  {
+   "no": 178,
+   "from": "P4_WEB",
+   "to": "P4_SHOPEE",
+   "type": "Luồng khách",
+   "label": "Nút mua trên Shopee, Lazada",
+   "why": "Nút \"Mua trên Shopee\" trên trang sản phẩm gắn UTM ngoại sàn cho khách muốn dùng voucher, ví của sàn."
+  },
+  {
+   "no": 179,
+   "from": "P4_WEB",
+   "to": "P4_TTSTORE",
+   "type": "Luồng khách",
+   "label": "Nút mua trên TikTok Shop",
+   "why": "Nút \"Mua trên TikTok Shop\" gắn link sản phẩm trong gian hàng cho khách quen thanh toán trong TikTok."
+  },
+  {
+   "no": 180,
+   "from": "P4_FBLIVE",
+   "to": "P5_CRM",
+   "type": "Dữ liệu, insight",
+   "label": "Đơn chốt từ live vào CRM",
+   "why": "Đơn chốt qua bình luận, inbox trong phiên live nhập POS, CRM kèm nguồn phiên live; có đồng ý mới dùng cho quảng cáo."
+  },
+  {
+   "no": 181,
+   "from": "P4_SHOPEE",
+   "to": "P5_MEASURE",
+   "type": "Dữ liệu, insight",
+   "label": "Doanh số sàn cho MMM",
+   "why": "Doanh số Shopee, Lazada theo ngày kèm UTM ngoại sàn, mã giảm giá từng kênh; thiếu doanh số sàn thì MMM chia ngân sách sai."
+  },
+  {
+   "no": 182,
+   "from": "P4_TTSTORE",
+   "to": "P5_MEASURE",
+   "type": "Dữ liệu, insight",
+   "label": "Doanh số TikTok Shop cho MMM",
+   "why": "Doanh số gian hàng theo ngày, tách video, LIVE, affiliate, GMV Max để đối chiếu phần tăng thêm."
+  },
+  {
+   "no": 183,
+   "from": "P4_FRAME",
+   "to": "P4_ZMA",
+   "type": "Luồng khách",
+   "label": "Quét mã đặt qua Zalo Mini App",
+   "why": "QR trên frame ưu đãi mở Zalo Mini App kèm mã riêng của tòa: cư dân đặt hàng, chọn giao tận căn hộ ngay trong Zalo."
+  },
+  {
+   "no": 184,
+   "from": "P4_FRAME",
+   "to": "P5_MEASURE",
+   "type": "Dữ liệu, insight",
+   "label": "Mã riêng từng tòa để đo",
+   "why": "Lượt quét, lượt dùng mã riêng từng tòa so với tòa không chạy cho thấy phần tăng thêm của Frame; tòa hiệu quả được giữ ở đợt sau."
+  },
+  {
+   "no": 185,
+   "from": "P5_CRM",
+   "to": "P5_META",
+   "type": "Dữ liệu, insight",
+   "label": "Tệp người mua cho cross-sell",
+   "why": "Catalog \"Purchased\" gợi ý sản phẩm đi kèm; Existing customers để đọc breakdown khách cũ, khách mới."
+  },
+  {
+   "no": 186,
+   "from": "P5_CRM",
+   "to": "P5_ZNS",
+   "type": "Dữ liệu, insight",
+   "label": "Người mua đồng ý nhận tin Zalo",
+   "why": "ZNS gửi theo số điện thoại với mẫu đã duyệt: xác nhận đơn, hướng dẫn dùng, xin đánh giá."
+  },
+  {
+   "no": 187,
+   "from": "P5_CRM",
+   "to": "P5_FBGROUP",
+   "type": "Tệp khán giả chuyển tiếp",
+   "label": "Mời người mua vào nhóm (có đồng ý)",
+   "why": "Người mua đã đồng ý nhận tin được gửi lời mời vào nhóm Facebook riêng; nhóm bật duyệt thành viên để giữ đúng người đã mua."
+  },
+  {
+   "no": 188,
+   "from": "P5_CRM",
+   "to": "P4_PMAX",
+   "type": "Vòng lặp về pha trước",
+   "label": "Customer Match: khách mới, khách cũ",
+   "why": "Danh sách có đồng ý tải lên Customer Match; PMax ưu tiên khách mới hoặc loại trừ người vừa mua."
+  },
+  {
+   "no": 189,
+   "from": "P5_CRM",
+   "to": "P4_OAI",
+   "type": "Vòng lặp về pha trước",
+   "label": "Danh sách người mua để loại trừ",
+   "why": "OpenAI Custom Audiences từ danh sách khách: loại trừ không cần kích thước tối thiểu."
+  },
+  {
+   "no": 190,
+   "from": "P5_CRM",
+   "to": "P2_ZCN",
+   "type": "Vòng lặp về pha trước",
+   "label": "Chăm lại khách cũ 1-1",
+   "why": "Khách đã đồng ý được nhân viên nhắn khi gần hết sản phẩm: hỏi trải nghiệm, gợi ý mua lại."
+  },
+  {
+   "no": 191,
+   "from": "P5_META",
+   "to": "P1_META",
+   "type": "Vòng lặp về pha trước",
+   "label": "Lookalike người mua, loại khách cũ",
+   "why": "Tệp người mua (tối thiểu 100 người) làm nguồn Lookalike; loại trừ khỏi chiến dịch nhận biết."
+  },
+  {
+   "no": 192,
+   "from": "P5_TT",
+   "to": "P1_TT",
+   "type": "Vòng lặp về pha trước",
+   "label": "Loại trừ người mua, Lookalike",
+   "why": "Tệp Complete Payment và Customer File (người đã đồng ý) giúp tìm khách mới, bớt lãng phí."
+  },
+  {
+   "no": 193,
+   "from": "P5_FBGROUP",
+   "to": "P5_REVIEW",
+   "type": "Bằng chứng xã hội",
+   "label": "Chia sẻ trải nghiệm thành review, UGC",
+   "why": "Bài chia sẻ ảnh, video dùng thật trong nhóm là nguồn review, UGC; xin phép tác giả trước khi dùng lại ở nơi khác."
+  },
+  {
+   "no": 194,
+   "from": "P5_FBGROUP",
+   "to": "P1_FBPAGE",
+   "type": "Vòng lặp về pha trước",
+   "label": "Câu hỏi trong nhóm thành bài đăng",
+   "why": "Câu hỏi lặp lại trong nhóm (cách dùng, kết hợp sản phẩm) thành bài giáo dục, Reels trên Fanpage cho người chưa mua."
+  },
+  {
+   "no": 195,
+   "from": "P5_ZNS",
+   "to": "P5_REVIEW",
+   "type": "Bằng chứng xã hội",
+   "label": "Nhắc đánh giá sau giao hàng",
+   "why": "Tin ZNS, email nhắc đánh giá có ảnh; không đổi quà lấy đánh giá tốt."
+  },
+  {
+   "no": 196,
+   "from": "P5_EMAIL",
+   "to": "P5_FBGROUP",
+   "type": "Luồng khách",
+   "label": "Email mời vào nhóm cộng đồng",
+   "why": "Email hướng dẫn dùng sau mua kèm link xin vào nhóm cộng đồng; có link hủy nhận tin như mọi email marketing."
+  },
+  {
+   "no": 197,
+   "from": "P5_EMAIL",
+   "to": "P4_WEB",
+   "type": "Vòng lặp về pha trước",
+   "label": "Nhắc mua lại, sản phẩm đi kèm",
+   "why": "Email theo chu kỳ dùng hết sản phẩm, dẫn về trang mua gắn UTM riêng."
+  },
+  {
+   "no": 198,
+   "from": "P5_REVIEW",
+   "to": "P3_META",
+   "type": "Vòng lặp về pha trước",
+   "label": "Review thật thành creative",
+   "why": "Xin phép người đánh giá, dùng nguyên trạng làm creative Meta, TikTok."
+  },
+  {
+   "no": 199,
+   "from": "P5_REVIEW",
+   "to": "P3_SEO",
+   "type": "Vòng lặp về pha trước",
+   "label": "Review cho trang so sánh",
+   "why": "Trích review thật (có đồng ý) vào trang review, cập nhật định kỳ để trang không cũ."
+  },
+  {
+   "no": 200,
+   "from": "P5_REVIEW",
+   "to": "P3_GEO",
+   "type": "Vòng lặp về pha trước",
+   "label": "Review công khai cho AI",
+   "why": "Review thu trên website markup aggregateRating (không lấy điểm từ sàn); AI tóm tắt review công khai."
+  },
+  {
+   "no": 201,
+   "from": "P5_REVIEW",
+   "to": "P0_WEB",
+   "type": "Vòng lặp về pha trước",
+   "label": "Phàn nàn thành FAQ",
+   "why": "Review tiêu cực (không hợp, khó dùng) thành FAQ xử lý tình huống và chính sách đổi trả."
+  },
+  {
+   "no": 202,
+   "from": "P5_MEASURE",
+   "to": "P1_KOL",
+   "type": "Vòng lặp về pha trước",
+   "label": "Lift, MMM chia lại ngân sách",
+   "why": "Kênh nhận biết dễ bị attribution tính thấp; Conversion Lift, GeoLift làm đầu vào cho Meridian, Robyn."
+  },
+  {
+   "no": 203,
+   "from": "P5_MEASURE",
+   "to": "P2_GSEARCH",
+   "type": "Vòng lặp về pha trước",
+   "label": "Tách brand, non-brand",
+   "why": "Search thương hiệu dễ nhận công của kênh nhận biết; thử tắt theo vùng hoặc thời gian để đo phần tăng thêm."
+  },
+  {
+   "no": 204,
+   "from": "P5_MEASURE",
+   "to": "P2_OAI",
+   "type": "Vòng lặp về pha trước",
+   "label": "Thử bật/tắt để đo OpenAI Ads",
+   "why": "Chưa rõ OpenAI Ads có nhắm cấp tỉnh ở VN; thử bật/tắt theo thời gian để ước lượng phần tăng thêm."
+  },
+  {
+   "no": 205,
+   "from": "P5_CRM",
+   "to": "P5_TT",
+   "type": "Dữ liệu, insight",
+   "label": "Customer File người mua cho TikTok",
+   "why": "Danh sách người mua đã đồng ý tải lên TikTok làm Customer File: loại trừ, nguồn Lookalike."
+  },
+  {
+   "no": 206,
+   "from": "P5_CRM",
+   "to": "P5_MEASURE",
+   "type": "Dữ liệu, insight",
+   "label": "Đơn mọi kênh làm chuỗi doanh số thật",
+   "why": "Đơn web, chat, COD, Mini App gộp theo ngày, theo tỉnh; đơn chốt qua tin nhắn không nằm trong số liệu pixel."
+  },
+  {
+   "no": 207,
+   "from": "P5_CRM",
+   "to": "P3_ZADS",
+   "type": "Vòng lặp về pha trước",
+   "label": "Tệp khách có đồng ý cho Zalo Ads",
+   "why": "Danh sách số điện thoại người mua đã đồng ý làm tệp nhắm hoặc loại trừ trong Zalo Ads; kiểm tra tùy chọn trong tài khoản."
+  },
+  {
+   "no": 208,
+   "from": "P5_EMAIL",
+   "to": "P5_REVIEW",
+   "type": "Bằng chứng xã hội",
+   "label": "Email xin đánh giá sau giao hàng",
+   "why": "Email sau giao hàng mời đánh giá có ảnh trên website; review thu trên web mới dùng được cho markup aggregateRating."
+  },
+  {
+   "no": 209,
+   "from": "P5_ZNS",
+   "to": "P4_ZMA",
+   "type": "Vòng lặp về pha trước",
+   "label": "Tin OA nhắc mua lại vào Mini App",
+   "why": "Tin OA theo chu kỳ dùng hết sản phẩm dẫn vào Zalo Mini App để khách đặt lại ngay trong Zalo."
+  },
+  {
+   "no": 210,
+   "from": "P5_FBGROUP",
+   "to": "P3_KOC",
+   "type": "Vòng lặp về pha trước",
+   "label": "Khách tích cực thành affiliate",
+   "why": "Thành viên chia sẻ trải nghiệm tốt trong nhóm được mời làm affiliate, dùng thật nên nội dung đáng tin."
+  },
+  {
+   "no": 211,
+   "from": "P5_REVIEW",
+   "to": "P3_TT",
+   "type": "Vòng lặp về pha trước",
+   "label": "Review thật thành creative TikTok",
+   "why": "Video review có đồng ý của người mua chạy TikTok Ads thường cho tệp đang cân nhắc."
+  },
+  {
+   "no": 212,
+   "from": "P5_REVIEW",
+   "to": "P3_IG",
+   "type": "Vòng lặp về pha trước",
+   "label": "Review vào highlight Instagram",
+   "why": "Ảnh, video review thật (có đồng ý) đăng Story rồi gom vào highlight cho người đang so sánh."
+  },
+  {
+   "no": 213,
+   "from": "P5_REVIEW",
+   "to": "P1_TTCH",
+   "type": "Vòng lặp về pha trước",
+   "label": "Đăng lại video review trên kênh",
+   "why": "Video review của người mua (có đồng ý, ghi nguồn) đăng lại trên kênh TikTok thương hiệu cho người chưa biết sản phẩm."
+  },
+  {
+   "no": 214,
+   "from": "P5_REVIEW",
+   "to": "P3_THREADS",
+   "type": "Vòng lặp về pha trước",
+   "label": "Review thật đăng lại trên Threads",
+   "why": "Ảnh, video, nhận xét của người mua (có đồng ý, ghi nguồn) đăng thành bài Threads hoặc dẫn vào thảo luận đang so sánh; giữ nguyên lời người đánh giá."
+  },
+  {
+   "no": 215,
+   "from": "P5_CRM",
+   "to": "P5_EVENT",
+   "type": "Tệp khán giả chuyển tiếp",
+   "label": "Mời người mua dự sự kiện (có đồng ý)",
+   "why": "Người mua đã đồng ý nhận tin được mời meetup, workshop nâng cao qua Zalo OA, email; chia nhóm theo sản phẩm đã mua để nội dung buổi gặp đúng nhu cầu."
+  },
+  {
+   "no": 216,
+   "from": "P5_EVENT",
+   "to": "P5_REVIEW",
+   "type": "Bằng chứng xã hội",
+   "label": "Trải nghiệm tại buổi gặp thành review",
+   "why": "Khách chia sẻ trải nghiệm, quay video tại buổi gặp là nguồn review, UGC thật; xin phép trước khi dùng lại, giữ nguyên lời khách."
+  },
+  {
+   "no": 217,
+   "from": "P5_EVENT",
+   "to": "P1_EVENT",
+   "type": "Vòng lặp về pha trước",
+   "label": "Khách cũ rủ bạn tới sự kiện sau",
+   "why": "Khách thân thiết nhận vé mời, mã giới thiệu cho bạn bè tới pop-up, sự kiện đợt sau; mã riêng cho biết ai giới thiệu được khách mới."
+  },
+  {
+   "no": 218,
+   "from": "P5_REVIEW",
+   "to": "P3_DOOH",
+   "type": "Vòng lặp về pha trước",
+   "label": "Review thật lên màn hình số",
+   "why": "Điểm đánh giá, trích lời khách thật (có đồng ý) chạy trên màn hình gần nơi mua cho người đang cân nhắc."
+  },
+  {
+   "no": 219,
+   "from": "P5_MEASURE",
+   "to": "P0_OFFPLAN",
+   "type": "Vòng lặp về pha trước",
+   "label": "Kết quả đo theo vùng chọn lại điểm đặt",
+   "why": "So sánh vùng thử, vùng đối chứng và lượt quét từng điểm cho biết pano, tuyến xe, tòa nhà nào hiệu quả; đợt sau dồn ngân sách vào điểm tốt, bỏ điểm yếu."
+  }
+ ],
+ "notes": [
+  {
+   "title": "Tìm kiếm tự nhiên: SEO, AEO, GEO",
+   "items": [
+    "Chung một nền: trang được index, tốc độ tốt, nội dung trả lời câu hỏi thật. Ba kênh khác nhau ở nơi câu trả lời hiện ra.",
+    "SEO: xếp hạng liên kết trên Google, Bing, Cốc Cốc; đo bằng Search Console, Bing Webmaster Tools.",
+    "AEO: được chọn làm đoạn trích, People Also Ask, nguồn của AI Overviews; câu trả lời ngắn nằm ngay dưới câu hỏi.",
+    "GEO: được ChatGPT, Gemini, Perplexity, Copilot trích dẫn; không chặn OAI-SearchBot, Bingbot; có số đo thật, chuyên gia có danh tính, review công khai.",
+    "Ngoài website: thảo luận thật trên diễn đàn, nhóm Facebook và video YouTube có phụ đề, chapter là những nguồn AI hay trích; thương hiệu tham gia bằng dữ kiện, không dựng tài khoản giả hay mua tương tác.",
+    "Không cam kết thứ hạng hay trích dẫn; theo dõi bằng bộ câu hỏi cố định kiểm tra hằng tuần."
+   ]
+  },
+  {
+   "title": "Quảng cáo trả phí",
+   "items": [
+    "Meta, TikTok: video KOC chạy Partnership Ads, Spark Ads để nhận biết; tệp tương tác dùng cho các pha sau.",
+    "Threads là một vị trí quảng cáo trong Meta Ads Manager, không phải nền tảng quảng cáo riêng: nằm sẵn trong Advantage+ placements, xem kết quả riêng bằng breakdown theo vị trí.",
+    "TikTok có hai loại quảng cáo: TikTok Ads thường (Reach, Traffic, Website Conversions) chạy được về website; TikTok Shop Ads (Product GMV Max, LIVE GMV Max) chỉ đưa khách về gian hàng TikTok Shop.",
+    "Google Ads: YouTube tạo nhu cầu, Search đón nhu cầu, Performance Max + Shopping dùng Merchant Center feed.",
+    "YouTube Ads (trong Google Ads) khác kênh YouTube thương hiệu: kênh là nơi đăng video, quảng cáo chạy chính video trên kênh; người xem tự nhiên và người xem quảng cáo là hai tệp khác nhau.",
+    "OOH, Frame tòa nhà, DOOH là kênh trả phí offline: mua theo điểm, theo tuần hoặc theo lượt phát; DOOH mua programmatic qua DSP được theo khung giờ, vị trí.",
+    "Zalo: OA tư vấn rồi dẫn vào Zalo Mini App để mua ngay trong Zalo; Zalo cá nhân tư vấn 1-1, chốt đơn qua tin nhắn hoặc gửi link website; ZNS sau mua; Zalo Ads nhắm người quan tâm OA và danh sách khách có đồng ý.",
+    "OpenAI Ads: quảng cáo nằm dưới câu trả lời, gắn nhãn Sponsored, không thay đổi câu trả lời; chỉ hiện với gói Free, Go; không retarget theo website.",
+    "Sàn: Shopee Ads, Lazada, Meta CPAS; mã giảm giá riêng từng kênh, từng KOC để đối soát.",
+    "Quảng cáo sàn (Shopee Ads, TikTok Shop Ads) theo quy định nền tảng chỉ dẫn khách trong sàn: không đưa khách về website, không thu email, số điện thoại. Website, email chỉ nhận khách từ kênh ngoài sàn."
+   ]
+  },
+  {
+   "title": "Kênh sở hữu và đẩy chéo",
+   "items": [
+    "Fanpage Facebook: bài đăng, Reels, Messenger, livestream, nhóm cộng đồng — mỗi phần một việc riêng, đều gắn được link website, Shopee, TikTok Shop, Zalo OA, Zalo Mini App, Zalo cá nhân.",
+    "Instagram: Reels, bài collab với KOC, Story, highlight, Direct, link in bio; đẩy khách về cùng các điểm đến như Fanpage.",
+    "Threads: tài khoản gắn với Instagram, đăng chéo bài từ Instagram; bài viết gắn chủ đề, trả lời, trích dẫn là nơi hỏi đáp và so sánh công khai; tin nhắn Threads cho tư vấn riêng; link trong bài, link bio (tối đa 5 link) dẫn website, Shopee, TikTok Shop, Zalo OA với UTM riêng của Threads.",
+    "Kênh TikTok tự nhiên: video gắn giỏ hàng dẫn vào gian hàng TikTok Shop; link trong bio (tài khoản doanh nghiệp) dẫn website hoặc Zalo.",
+    "Kênh YouTube thương hiệu: Shorts để được thấy, video dài có chapter để trả lời câu hỏi, video so sánh để chốt. Link trong mô tả Shorts không bấm được nên dẫn khách bằng video dài, bình luận ghim, link hồ sơ kênh; YouTube Shopping gắn sản phẩm Shopee cho kênh đủ điều kiện.",
+    "Các kênh sở hữu, kênh giao tiếp đẩy chéo qua lại được: đăng chéo video, mời theo dõi, gửi link giữa Fanpage, Instagram, Threads, TikTok, YouTube, Zalo, website, email. Mỗi link gắn UTM riêng để biết kênh nào đẩy khách.",
+    "Riêng quảng cáo sàn và gian hàng sàn (Shopee, TikTok Shop) không đẩy khách ra ngoài sàn theo quy định nền tảng."
+   ]
+  },
+  {
+   "title": "Offline: ngoài trời, tòa nhà, sự kiện",
+   "items": [
+    "Quảng cáo ngoài trời: billboard, pano, màn LED cho độ phủ theo vùng; xe buýt, taxi, xe công nghệ, sân bay, nhà chờ theo hành trình di chuyển; DOOH mua theo khung giờ, vị trí.",
+    "Frame tòa nhà: frame ảnh tĩnh, màn LCD trong thang máy, sảnh chung cư, văn phòng; chọn theo tòa, khu vực, lặp lại với cùng cư dân mỗi ngày.",
+    "Sự kiện: pop-up, phát mẫu thử, hội chợ, triển lãm để thử sản phẩm tận tay; workshop, hội thảo để giải thích sâu; meetup khách thân thiết sau mua.",
+    "Nối offline vào kênh số: mỗi điểm đặt, mỗi tòa, mỗi sự kiện một QR + UTM hoặc mã giảm giá riêng dẫn Zalo OA, Mini App, website; lượt tìm tên thương hiệu tăng được Search Ads, SEO đón; check-in, UGC thành review.",
+    "Đo offline: không có pixel nên đo theo vùng (vùng thử, vùng đối chứng, GeoLift), lượt quét QR, mã riêng và lượt tìm tên thương hiệu theo tỉnh (Google Trends, báo cáo vị trí Google Ads). 34 tỉnh là ít vùng cho GeoLift; OOH thường chỉ ở TP.HCM, Hà Nội nên chia vùng thử theo phường, cụm phường cần dữ liệu đơn đủ chi tiết. Không bám theo được từng người đi ngang pano; quảng cáo số chỉ nhắm được theo khu vực.",
+    "Thủ tục: nội dung bảng quảng cáo, băng rôn phải thông báo với cơ quan có thẩm quyền về quảng cáo cấp tỉnh (thường là Sở Văn hóa, Thể thao và Du lịch) 15 ngày trước khi treo (Luật Quảng cáo sửa đổi 2025). Bảng quảng cáo từ 20 m2 (một mặt) có kết cấu khung kim loại cần giấy phép xây dựng công trình quảng cáo; sản phẩm phải xác nhận nội dung quảng cáo trước (thực phẩm bảo vệ sức khỏe, thuốc, trang thiết bị y tế...) thì xin xác nhận cho cả nội dung ngoài trời.",
+    "Phát mẫu thử, tặng quà là khuyến mại: thông báo Sở Công Thương (một số chương trình giá trị nhỏ có thể được miễn theo quy định hiện hành, kiểm tra trước); không phát mẫu rượu, thuốc lá, sữa thay thế sữa mẹ, thuốc cho người tiêu dùng."
+   ]
+  },
+  {
+   "title": "Đo xuyên kênh",
+   "items": [
+    "Một event_id cho Meta CAPI, TikTok Events API, OpenAI Conversions API để mỗi nền tảng tự khử trùng lặp; Google Ads dùng Enhanced Conversions + Consent Mode.",
+    "GA4 tách nguồn: google / organic (SEO, AEO), chatgpt.com và các AI khác (GEO), UTM riêng cho từng kênh quảng cáo, oppref (OpenAI Ads).",
+    "Đơn trên sàn: UTM ngoại sàn của Shopee, Lazada; Sub_id affiliate; mã giảm giá riêng từng KOC.",
+    "Mỗi nền tảng một cửa sổ ghi nhận riêng, không cộng dồn; đối soát với đơn thực tế.",
+    "Zalo: đơn Mini App đồng bộ về CRM; đơn chốt qua Zalo cá nhân nhập tay kèm nguồn và tên nhân viên; link gửi khách gắn UTM từng nhân viên.",
+    "GEO: Search Console (impressions AI), Bing AI Performance (dữ liệu Copilot), bộ prompt so sánh cố định kiểm tra hằng tuần.",
+    "Lift test (Meta, TikTok qua account rep, GeoLift) làm đầu vào cho MMM Meridian hoặc Robyn.",
+    "MMM cần chuỗi doanh số THẬT: cả doanh số Shopee, Lazada, TikTok Shop lẫn đơn chốt qua chat, COD, Mini App — những đơn này không nằm trong số liệu pixel."
+   ]
+  },
+  {
+   "title": "Pháp lý quảng cáo 2026",
+   "items": [
+    "Luật 75/2025/QH15, Điều 15a (từ 01/01/2026): KOL, KOC phải dùng thật, kiểm tra tài liệu, công khai là quảng cáo.",
+    "Luật 91/2025/QH15, Nghị định 356/2025/NĐ-CP: cần đồng ý trước khi bắn pixel và tải danh sách khách.",
+    "Luật Thương mại điện tử 122/2025/QH15 (từ 01/7/2026): livestream, affiliate không nói sai công dụng.",
+    "Ngành có điều kiện (mỹ phẩm, thực phẩm, y tế): thêm quy định chuyên ngành về nội dung bắt buộc và claim được phép, ví dụ mỹ phẩm theo Nghị định 342/2025/NĐ-CP và Thông tư 06/2011/TT-BYT."
+   ]
+  }
+ ]
+}

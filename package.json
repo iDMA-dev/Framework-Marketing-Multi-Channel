@@ -1,0 +1,18 @@
+{
+  "name": "idma-framework-marketing-mcp",
+  "version": "1.0.0",
+  "description": "Framework Marketing Đa Kênh by IDMA Dev - MCP server (tiếng Việt)",
+  "type": "module",
+  "bin": { "idma-framework-marketing-mcp": "src/stdio.js" },
+  "files": ["src", "framework", "docs", "README.md"],
+  "scripts": {
+    "build:data": "node scripts/build-data.mjs",
+    "start": "node src/stdio.js",
+    "start:http": "node src/http.js",
+    "test": "node scripts/test.mjs",
+    "deploy": "npx wrangler deploy"
+  },
+  "engines": { "node": ">=18" },
+  "license": "UNLICENSED",
+  "repository": { "type": "git", "url": "git+https://github.com/iDMA-dev/Framework-Marketing-Multi-Channel.git" }
+}

@@ -1,5 +1,18 @@
 # Tính năng — Framework Marketing Đa Kênh (IDMA Dev)
 
+## 0. MCP server tiếng Việt (mới)
+Cài một lần vào Claude (hoặc ứng dụng hỗ trợ MCP) rồi hỏi bằng tiếng Việt. Có 8 công cụ chỉ-đọc:
+- `framework_overview`: tổng quan 6 pha, 19 kênh, 6 loại liên kết.
+- `framework_phase`: chi tiết một pha (nhận "P3", "3" hoặc "so sánh").
+- `framework_channel`: chi tiết một kênh hoặc cả nền tảng (nhận "Zalo", "Meta", "Offline", "Shopee", "FB"...).
+- `framework_block`: một khối việc, nhận gì từ đâu, đẩy gì đi đâu và vì sao.
+- `framework_path`: tìm đường ngắn nhất đưa khách từ kênh này tới kênh kia, ưu tiên đi xuôi hành trình.
+- `framework_plan`: nhập bộ kênh đang chạy, nhận về pha còn trống, liên kết giữa các kênh và kênh nên thêm.
+- `framework_search`: tìm theo từ khóa, không cần gõ dấu.
+- `framework_notes`: ghi chú xuyên kênh và pháp lý, lọc theo chủ đề.
+
+Ba cách chạy: trên máy bạn (stdio), link HTTP trên máy chủ Node, hoặc link trên Cloudflare Workers. Không cần cài thư viện ngoài. Chỉ đọc, không lưu dữ liệu người dùng.
+
 ## 1. Hành trình khách 6 pha
 Chia toàn bộ hoạt động marketing theo 6 pha: Nền tảng → Nhận biết → Tìm hiểu → So sánh → Mua → Sau mua. Mỗi pha có:
 - Câu hỏi khách đang tự hỏi ở pha đó.

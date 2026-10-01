@@ -1,0 +1,3 @@
+name = "idma-framework-marketing"
+main = "src/worker.js"
+compatibility_date = "2025-01-01"
