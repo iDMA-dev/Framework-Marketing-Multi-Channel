@@ -13,9 +13,18 @@ Framework nối **6 pha hành trình khách** với **19 kênh** (KOL/KOC, offli
 
 **Đã có link MCP?** Vào Claude → Settings → Connectors → Add custom connector → dán link `https://.../mcp`.
 
-**Chưa có link?** Chọn một trong hai:
-- Chạy trên máy bạn, không cần link: xem [Cách B trong hướng dẫn](docs/HUONG-DAN-SU-DUNG.md#cách-b--chạy-trên-máy-bạn).
-- Tạo link riêng (khoảng 5 phút, miễn phí): xem [Triển khai link MCP](docs/TRIEN-KHAI-LINK-MCP.md).
+**Chưa có link? Dùng thẳng từ GitHub, không cần Cloudflare.** Cài Node.js, rồi:
+
+- Claude Code:
+  ```
+  claude mcp add idma-framework -- npx -y github:iDMA-dev/Framework-Marketing-Multi-Channel
+  ```
+- Claude Desktop: thêm vào `claude_desktop_config.json`:
+  ```json
+  { "mcpServers": { "idma-framework": { "command": "npx", "args": ["-y", "github:iDMA-dev/Framework-Marketing-Multi-Channel"] } } }
+  ```
+
+Chi tiết: [Cách B trong hướng dẫn](docs/HUONG-DAN-SU-DUNG.md). Muốn có link `https://.../mcp` công khai: xem [Triển khai link MCP](docs/TRIEN-KHAI-LINK-MCP.md) (Render, Cloudflare hoặc máy chủ riêng).
 
 Sau đó hỏi thử: *"Tôi đang chạy TikTok, Zalo OA và Shopee. Còn thiếu pha nào, nên thêm kênh nào?"*
 

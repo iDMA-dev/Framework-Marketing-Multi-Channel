@@ -12,7 +12,7 @@ Có 3 cách dùng. Chọn **một** cách:
 | Cách | Hợp với ai | Cần gì |
 |---|---|---|
 | **A. Dùng link MCP** | Muốn dán link giống bản gốc | Link `.../mcp` của IDMA Dev (xem mục A) |
-| **B. Chạy trên máy bạn** | Không có link, muốn dùng ngay | Cài Node.js (miễn phí) |
+| **B. Dùng thẳng từ GitHub** | Không có link, muốn dùng ngay, không qua Cloudflare | Cài Node.js (miễn phí), chép 1 đoạn cấu hình |
 | **C. Không cài gì** | Chỉ cần đọc, hỏi thử | Chỉ cần gửi file cho AI |
 
 ---
@@ -38,41 +38,41 @@ claude mcp add --transport http idma-framework https://TEN-MIEN-CUA-BAN/mcp
 
 ---
 
-## Cách B — Chạy trên máy bạn
+## Cách B — Dùng thẳng từ GitHub (không cần link, không cần Cloudflare)
+
+Cách này chạy ngay từ kho GitHub này. **Không cần tải kho về, không cần tạo máy chủ.** Chỉ cần Node.js.
 
 **Bước 1.** Cài Node.js phiên bản 18 trở lên: https://nodejs.org (chọn bản LTS).
 
-**Bước 2.** Tải kho này về máy. Ví dụ:
-```
-git clone https://github.com/iDMA-dev/Framework-Marketing-Multi-Channel.git
-```
-Không dùng git? Vào trang GitHub, bấm **Code → Download ZIP**, rồi giải nén.
-
-**Bước 3.** Thêm vào Claude:
+**Bước 2.** Thêm vào Claude:
 
 - **Claude Desktop:** mở file cấu hình
   - Mac: `~/Library/Application Support/Claude/claude_desktop_config.json`
   - Windows: `%APPDATA%\Claude\claude_desktop_config.json`
 
-  Thêm đoạn sau (sửa đường dẫn cho đúng thư mục bạn vừa tải):
+  Thêm đoạn sau (chép nguyên, không cần sửa gì):
   ```json
   {
     "mcpServers": {
       "idma-framework": {
-        "command": "node",
-        "args": ["/duong-dan/Framework-Marketing-Multi-Channel/src/stdio.js"]
+        "command": "npx",
+        "args": ["-y", "github:iDMA-dev/Framework-Marketing-Multi-Channel"]
       }
     }
   }
   ```
-  Tắt hẳn rồi mở lại Claude Desktop.
+  Tắt hẳn rồi mở lại Claude Desktop. Lần đầu có thể chờ vài chục giây để tải về.
 
 - **Claude Code:**
   ```
-  claude mcp add idma-framework -- node /duong-dan/Framework-Marketing-Multi-Channel/src/stdio.js
+  claude mcp add idma-framework -- npx -y github:iDMA-dev/Framework-Marketing-Multi-Channel
   ```
 
-**Bước 4. Kiểm tra:** hỏi Claude "Cho tôi tổng quan Framework Marketing Đa Kênh". Nếu thấy 6 pha và 19 kênh là đã chạy.
+> Muốn lấy nội dung mới nhất: tắt hẳn rồi mở lại ứng dụng. Nếu vẫn thấy bản cũ, chạy `npx clear-npx-cache` rồi mở lại.
+
+> Kho GitHub phải để chế độ **Public** thì lệnh trên mới tải được mà không cần đăng nhập.
+
+**Bước 3. Kiểm tra:** hỏi Claude "Cho tôi tổng quan Framework Marketing Đa Kênh". Nếu thấy 6 pha và 19 kênh là đã chạy.
 
 ---
 
@@ -120,7 +120,7 @@ Sau khi cài, bạn chỉ cần hỏi bình thường:
 |---|---|
 | Mở link `/mcp` trên trình duyệt thấy "chỉ nhận POST" | Bình thường. Dán link vào ứng dụng AI, đừng mở bằng trình duyệt. |
 | Claude Desktop không thấy công cụ | Kiểm tra đường dẫn trong file cấu hình, rồi tắt hẳn và mở lại ứng dụng. |
-| Báo `node: command not found` | Chưa cài Node.js. Cài ở https://nodejs.org rồi mở lại ứng dụng. |
+| Báo `npx: command not found` hoặc `node: command not found` | Chưa cài Node.js. Cài ở https://nodejs.org rồi mở lại ứng dụng. |
 | Báo lỗi đường dẫn trên Windows | Dùng dấu `/` hoặc viết đôi `\\`, ví dụ `C:/Users/ban/Framework-Marketing-Multi-Channel/src/stdio.js`. |
 | Muốn kiểm tra server có chạy không | Vào thư mục kho, chạy `node scripts/test.mjs`. Thấy "TẤT CẢ ĐẠT" là ổn. |
 

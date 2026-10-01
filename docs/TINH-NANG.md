@@ -11,7 +11,7 @@ Cài một lần vào Claude (hoặc ứng dụng hỗ trợ MCP) rồi hỏi b�
 - `framework_search`: tìm theo từ khóa, không cần gõ dấu.
 - `framework_notes`: ghi chú xuyên kênh và pháp lý, lọc theo chủ đề.
 
-Ba cách chạy: trên máy bạn (stdio), link HTTP trên máy chủ Node, hoặc link trên Cloudflare Workers. Không cần cài thư viện ngoài. Chỉ đọc, không lưu dữ liệu người dùng.
+Các cách chạy: thẳng từ GitHub bằng `npx` (không cần link, không cần Cloudflare), trên máy bạn (stdio), link HTTP trên máy chủ Node hoặc Render, hoặc link trên Cloudflare Workers. Không cần cài thư viện ngoài. Chỉ đọc, không lưu dữ liệu người dùng.
 
 ## 1. Hành trình khách 6 pha
 Chia toàn bộ hoạt động marketing theo 6 pha: Nền tảng → Nhận biết → Tìm hiểu → So sánh → Mua → Sau mua. Mỗi pha có:

@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: idma-framework-marketing
+    runtime: node
+    plan: free
+    buildCommand: echo ok
+    startCommand: node src/http.js
+    autoDeploy: true
